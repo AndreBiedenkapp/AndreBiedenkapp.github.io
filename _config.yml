@@ -64,7 +64,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: ml.informatik.uni-freiburg.de/~biedenka # work page URL
+work_url: https://ml.informatik.uni-freiburg.de/~biedenka # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: https://dblp1.uni-trier.de/pid/195/8188.html # your DBLP profile url
