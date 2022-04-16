@@ -1,11 +1,21 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description: 
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+During the time of my PhD studies at the university of Freiburg, I have been involved in teaching in the following courses:
 
-Organize your courses by years, topics, or universities, however you like!
+    2022: Teaching Assistant: Automated Machine Learning
+    2021: Teaching Assistant: MOOC on Automated Machine Learning
+    2021: Teaching Assistant: Automated Machine Learning
+    2020: Teaching Assistant: Automated Machine Learning
+    2019: Teaching Assistant: Automated Machine Learning
+    2018: Teaching Assistant: Machine Learning for Automated Algorithm Design
+    2017: Teaching Assistant: Machine Learning for Automated Algorithm Design
+
+In particular, I have created the practical exercises (in python) for the students to get hands-on experience with AutoML algorithms.
+The latest iteration of exercises are freely available as part of our MOOC on Automated Machine Learning.
+You can check it out here: [https://learn.ki-campus.org/courses/automl-luh2021](https://learn.ki-campus.org/courses/automl-luh2021)
