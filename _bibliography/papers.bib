@@ -20,6 +20,7 @@ pdf = {22-gecco.pdf},
 note = {Joint first authorship},
 website = {https://www.automl.org/automated-algorithm-design/dac/},
 code = {https://github.com/ndangtt/LeadingOnesDAC},
+selected = {true},
 abstract = {It has long been observed that the performance of evolutionary algorithms and other randomized search heuristics can benefit from a non-static choice of the parameters that steer their optimization behavior. Mechanisms that identify suitable configurations on the fly ("parameter control") or via a dedicated training process ("dynamic algorithm configuration") are therefore an important component of modern evolutionary computation frameworks. Several approaches to address the dynamic parameter setting problem exist, but we barely understand which ones to prefer for which applications. As in classical benchmarking, problem collections with a known ground truth can offer very meaningful insights in this context. Unfortunately, settings with well-understood control policies are very rare.
 One of the few exceptions for which we know which parameter settings minimize the expected runtime is the LeadingOnes problem. We extend this benchmark by analyzing optimal control policies that can select the parameters only from a given portfolio of possible values. This also allows us to compute optimal parameter portfolios of a given size. We demonstrate the usefulness of our benchmarks by analyzing the behavior of the DDQN reinforcement learning approach for dynamic algorithm configuration.}
 }
@@ -44,6 +45,7 @@ author = {Jack Parker-Holder and Raghu Rajan and Xingyou Song and André Biedenk
 year = {2022},
 journal = {arXiv:2201.03916},
 arxiv = {arXiv:2201.03916},
+selected = {true},
 abstract = {The combination of Reinforcement Learning (RL) with deep learning has led to a series of impressive feats, with many believing (deep) RL provides a path towards generally capable agents. However, the success of RL agents is often highly sensitive to design choices in the training process, which may require tedious and error-prone manual tuning. This makes it challenging to use RL for new problems, while also limits its full potential. In many other areas of machine learning, AutoML has shown it is possible to automate such design choices and has also yielded promising initial results when applied to RL. However, Automated Reinforcement Learning (AutoRL) involves not only standard applications of AutoML but also includes additional challenges unique to RL, that naturally produce a different set of methods. As such, AutoRL has been emerging as an important area of research in RL, providing promise in a variety of applications from RNA design to playing games such as Go. Given the diversity of methods and environments considered in RL, much of the research has been conducted in distinct subfields, ranging from meta-learning to evolution. In this survey we seek to unify the field of AutoRL, we provide a common taxonomy, discuss each area in detail and pose open problems which would be of interest to researchers going forward.}
 }
 
@@ -125,6 +127,7 @@ arxiv = {2106.05262},
 talk = {https://slideslive.com/38959338/temporl-learning-when-to-act},
 pdf = {biedenkapp21a.pdf},
 supp = {biedenkapp21a-supp.pdf},
+selected = {true},
 abstract = {Reinforcement learning is a powerful approach to learn behaviour through interactions with an environment. However, behaviours are usually learned in a purely reactive fashion, where an appropriate action is selected based on an observation. In this form, it is challenging to learn when it is necessary to execute new decisions. This makes learning inefficient, especially in environments that need various degrees of fine and coarse control. To address this, we propose a proactive setting in which the agent not only selects an action in a state but also for how long to commit to that action. Our TempoRL approach introduces skip connections between states and learns a skip-policy for repeating the same action along these skips. We demonstrate the effectiveness of TempoRL on a variety of traditional and deep RL environments, showing that our approach is capable of learning successful policies up to an order of magnitude faster than vanilla Q-learning.}
 }
 
@@ -379,6 +382,7 @@ code = {https://github.com/automl/DAC},
 blog = {https://www.automl.org/dynamic-algorithm-configuration/},
 supp = {https://github.com/automl/DAC/blob/master/Appendix.pdf},
 pdf = {20-ecai-dac.pdf},
+selected = {true},
 abstract = "The performance of many algorithms in the fields of
 hard combinatorial problem solving, machine learning or AI in general depends on parameter tuning. Automated methods have been
 proposed to alleviate users from the tedious and error-prone task of

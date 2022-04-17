@@ -1,0 +1,23 @@
+"Hutter":
+  - firstname: ["Frank", "F."]
+    url: https://ml.informatik.uni-freiburg.de/profile/hutter
+
+"Lindauer":
+  - firstname: ["Marius", "M."]
+    url: https://www.tnt.uni-hannover.de/staff/lindauer/
+
+"Speck":
+  - firstname: ["David", "D."]
+    url: https://speckdavid.github.io/
+
+"Eimer":
+  - firstname: ["Theresa", "T."]
+    url: https://www.tnt.uni-hannover.de/en/staff/eimer/
+
+"Doerr":
+  - firstname: ["Carola", "C."]
+    url: http://www-ia.lip6.fr/~doerr/index.html
+
+"Benjamins":
+  - firstname: ["Carolin", "C."]
+    url: https://www.tnt.uni-hannover.de/en/staff/benjamin/
