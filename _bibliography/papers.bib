@@ -2,97 +2,105 @@
 ---
 
 @article{benjamins-arxiv22a,
-title = {Contextualize Me – The Case for Context in Reinforcement Learning},
-author = {Carolin Benjamins and Theresa Eimer and Frederik Schubert and Aditya Mohan and André Biedenkapp and Bodo Rosenhan and Frank Hutter and Marius Lindauer},
-year = {2022},
-journal = {arXiv:2202.04500},
-arxiv = {arXiv:2202.04500},
-abstract = {While Reinforcement Learning (RL) has made great strides towards solving increasingly complicated problems, many algorithms are still brittle to even slight changes in environments. Contextual Reinforcement Learning (cRL) provides a theoretical framework to model such changes in a principled manner, thereby enabling flexible, precise and interpretable task specification and generation. Thus, cRL is an important formalization for studying generalization in RL. In this work, we reason about solving cRL in theory and practice. We show that theoretically optimal behavior in contextual Markov Decision Processes requires explicit context information. In addition, we empirically explore context-based task generation, utilizing context information in training and propose cGate, our state-modulating policy architecture. To this end, we introduce the first benchmark library designed for generalization based on cRL extensions of popular benchmarks, CARL. In short: Context matters! }
+    title = {Contextualize Me – The Case for Context in Reinforcement Learning},
+    author = {Carolin Benjamins and Theresa Eimer and Frederik Schubert and Aditya Mohan and André Biedenkapp and Bodo Rosenhan and Frank Hutter and Marius Lindauer},
+    year = {2022},
+    journal = {arXiv:2202.04500},
+    bibtex_show={true},
+    arxiv = {arXiv:2202.04500},
+    abstract = {While Reinforcement Learning (RL) has made great strides towards solving increasingly complicated problems, many algorithms are still brittle to even slight changes in environments. Contextual Reinforcement Learning (cRL) provides a theoretical framework to model such changes in a principled manner, thereby enabling flexible, precise and interpretable task specification and generation. Thus, cRL is an important formalization for studying generalization in RL. In this work, we reason about solving cRL in theory and practice. We show that theoretically optimal behavior in contextual Markov Decision Processes requires explicit context information. In addition, we empirically explore context-based task generation, utilizing context information in training and propose cGate, our state-modulating policy architecture. To this end, we introduce the first benchmark library designed for generalization based on cRL extensions of popular benchmarks, CARL. In short: Context matters! }
 }
 
 @inproceedings{biedenkapp-gecco22a,
-title = {Theory-inspired Parameter Control Benchmarks for Dynamic Algorithm Configuration},
-author = {André Biedenkapp and Nguyen Dang and Martin S. Krejca and Frank Hutter and Carola Doerr},
-year = {2022},
-arxiv = {arXiv:2202.03259},
-booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference ({GECCO}'22)},
-pdf = {22-gecco.pdf},
-note = {Joint first authorship},
-website = {https://www.automl.org/automated-algorithm-design/dac/},
-code = {https://github.com/ndangtt/LeadingOnesDAC},
-selected = {true},
-abstract = {It has long been observed that the performance of evolutionary algorithms and other randomized search heuristics can benefit from a non-static choice of the parameters that steer their optimization behavior. Mechanisms that identify suitable configurations on the fly ("parameter control") or via a dedicated training process ("dynamic algorithm configuration") are therefore an important component of modern evolutionary computation frameworks. Several approaches to address the dynamic parameter setting problem exist, but we barely understand which ones to prefer for which applications. As in classical benchmarking, problem collections with a known ground truth can offer very meaningful insights in this context. Unfortunately, settings with well-understood control policies are very rare.
-One of the few exceptions for which we know which parameter settings minimize the expected runtime is the LeadingOnes problem. We extend this benchmark by analyzing optimal control policies that can select the parameters only from a given portfolio of possible values. This also allows us to compute optimal parameter portfolios of a given size. We demonstrate the usefulness of our benchmarks by analyzing the behavior of the DDQN reinforcement learning approach for dynamic algorithm configuration.}
+    title = {Theory-inspired Parameter Control Benchmarks for Dynamic Algorithm Configuration},
+    author = {André Biedenkapp and Nguyen Dang and Martin S. Krejca and Frank Hutter and Carola Doerr},
+    year = {2022},
+    arxiv = {arXiv:2202.03259},
+    booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference ({GECCO}'22)},
+    pdf = {22-gecco.pdf},
+    note = {Joint first authorship},
+    website = {https://www.automl.org/automated-algorithm-design/dac/},
+    code = {https://github.com/ndangtt/LeadingOnesDAC},
+    selected = {true},
+    bibtex_show={true},
+    abstract = {It has long been observed that the performance of evolutionary algorithms and other randomized search heuristics can benefit from a non-static choice of the parameters that steer their optimization behavior. Mechanisms that identify suitable configurations on the fly ("parameter control") or via a dedicated training process ("dynamic algorithm configuration") are therefore an important component of modern evolutionary computation frameworks. Several approaches to address the dynamic parameter setting problem exist, but we barely understand which ones to prefer for which applications. As in classical benchmarking, problem collections with a known ground truth can offer very meaningful insights in this context. Unfortunately, settings with well-understood control policies are very rare.
+    One of the few exceptions for which we know which parameter settings minimize the expected runtime is the LeadingOnes problem. We extend this benchmark by analyzing optimal control policies that can select the parameters only from a given portfolio of possible values. This also allows us to compute optimal parameter portfolios of a given size. We demonstrate the usefulness of our benchmarks by analyzing the behavior of the DDQN reinforcement learning approach for dynamic algorithm configuration.}
 }
 
 @article{lindauer-jmlr22a,
-title = { SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter Optimization},
-author = {Marius Lindauer and Katharina Eggensperger and Matthias Feurer and André Biedenkapp and Difan Deng and Carolin Benjamins and Tim Ruhkopf and René Sass and Frank Hutter},
-year = {2022},
-journal = {Journal of Machine Learning Research (JMLR) -- MLOSS},
-volume = {23},
-number = {54},
-pages = {1-9},
-arxiv = {2109.09831},
-code = {https://github.com/automl/SMAC3},
-pdf = {21-0888.pdf},
-abstract = {Algorithm parameters, in particular hyperparameters of machine learning algorithms, can substantially impact their performance. To support users in determining well-performing hyperparameter configurations for their algorithms, datasets and applications at hand, SMAC3 offers a robust and flexible framework for Bayesian Optimization, which can improve performance within a few evaluations. It offers several facades and pre-sets for typical use cases, such as optimizing hyperparameters, solving low dimensional continuous (artificial) global optimization problems and configuring algorithms to perform well across multiple problem instances. The SMAC3 package is available under a permissive BSD-license at https://github.com/automl/SMAC3. }
+    title = {SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter Optimization},
+    author = {Marius Lindauer and Katharina Eggensperger and Matthias Feurer and André Biedenkapp and Difan Deng and Carolin Benjamins and Tim Ruhkopf and René Sass and Frank Hutter},
+    year = {2022},
+    bibtex_show={true},
+    journal = {Journal of Machine Learning Research (JMLR) -- MLOSS},
+    volume = {23},
+    number = {54},
+    pages = {1-9},
+    arxiv = {2109.09831},
+    bibtex_show={true},
+    code = {https://github.com/automl/SMAC3},
+    pdf = {21-0888.pdf},
+    abstract = {Algorithm parameters, in particular hyperparameters of machine learning algorithms, can substantially impact their performance. To support users in determining well-performing hyperparameter configurations for their algorithms, datasets and applications at hand, SMAC3 offers a robust and flexible framework for Bayesian Optimization, which can improve performance within a few evaluations. It offers several facades and pre-sets for typical use cases, such as optimizing hyperparameters, solving low dimensional continuous (artificial) global optimization problems and configuring algorithms to perform well across multiple problem instances. The SMAC3 package is available under a permissive BSD-license at https://github.com/automl/SMAC3. }
 }
 
 @article{parker-holder-arxiv21a,
-title = {Automated Reinforcement Learning (AutoRL): A Survey and Open Problems},
-author = {Jack Parker-Holder and Raghu Rajan and Xingyou Song and André Biedenkapp and Yingjie Miao and Theresa Eimer and Baohe Zhang and Vu Nguyen and Roberto Calandra and Aleksandra Faust and Frank Hutter and Marius Lindauer},
-year = {2022},
-journal = {arXiv:2201.03916},
-arxiv = {arXiv:2201.03916},
-selected = {true},
-abstract = {The combination of Reinforcement Learning (RL) with deep learning has led to a series of impressive feats, with many believing (deep) RL provides a path towards generally capable agents. However, the success of RL agents is often highly sensitive to design choices in the training process, which may require tedious and error-prone manual tuning. This makes it challenging to use RL for new problems, while also limits its full potential. In many other areas of machine learning, AutoML has shown it is possible to automate such design choices and has also yielded promising initial results when applied to RL. However, Automated Reinforcement Learning (AutoRL) involves not only standard applications of AutoML but also includes additional challenges unique to RL, that naturally produce a different set of methods. As such, AutoRL has been emerging as an important area of research in RL, providing promise in a variety of applications from RNA design to playing games such as Go. Given the diversity of methods and environments considered in RL, much of the research has been conducted in distinct subfields, ranging from meta-learning to evolution. In this survey we seek to unify the field of AutoRL, we provide a common taxonomy, discuss each area in detail and pose open problems which would be of interest to researchers going forward.}
+    title = {Automated Reinforcement Learning (AutoRL): A Survey and Open Problems},
+    author = {Jack Parker-Holder and Raghu Rajan and Xingyou Song and André Biedenkapp and Yingjie Miao and Theresa Eimer and Baohe Zhang and Vu Nguyen and Roberto Calandra and Aleksandra Faust and Frank Hutter and Marius Lindauer},
+    year = {2022},
+    bibtex_show={true},
+    journal = {arXiv:2201.03916},
+    arxiv = {arXiv:2201.03916},
+    selected = {true},
+    abstract = {The combination of Reinforcement Learning (RL) with deep learning has led to a series of impressive feats, with many believing (deep) RL provides a path towards generally capable agents. However, the success of RL agents is often highly sensitive to design choices in the training process, which may require tedious and error-prone manual tuning. This makes it challenging to use RL for new problems, while also limits its full potential. In many other areas of machine learning, AutoML has shown it is possible to automate such design choices and has also yielded promising initial results when applied to RL. However, Automated Reinforcement Learning (AutoRL) involves not only standard applications of AutoML but also includes additional challenges unique to RL, that naturally produce a different set of methods. As such, AutoRL has been emerging as an important area of research in RL, providing promise in a variety of applications from RNA design to playing games such as Go. Given the diversity of methods and environments considered in RL, much of the research has been conducted in distinct subfields, ranging from meta-learning to evolution. In this survey we seek to unify the field of AutoRL, we provide a common taxonomy, discuss each area in detail and pose open problems which would be of interest to researchers going forward.}
 }
 
 @inproceedings{benjamins-arxiv21a,
-title = {CARL: A Benchmark for Contextual and Adaptive Reinforcement Learning},
-author = {Carolin Benjamins and Theresa Eimer and Frederik Schubert and André Biedenkapp and Bodo Rosenhan and Frank Hutter and Marius Lindauer},
-year = {2021},
-booktitle = {Workshop on Ecological Theory of Reinforcement Learning (EcoRL@NeurIPS'21)},
-journal = {arXiv:2110.02102},
-arxiv = {arXiv:2110.02102},
-code = {https://github.com/automl/CARL},
-abstract = {While Reinforcement Learning has made great strides towards solving ever more complicated tasks, many algorithms are still brittle to even slight changes in their environment. This is a limiting factor for real-world applications of RL. Although the research community continuously aims at improving both robustness and generalization of RL algorithms, unfortunately it still lacks an open-source set of well-defined benchmark problems based on a consistent theoretical framework, which allows comparing different approaches in a fair, reliable and reproducibleway. To fill this gap, we propose CARL, a collection of well-known RL environments extended to contextual RL problems to study generalization. We show the urgent need of such benchmarks by demonstrating that even simple toy environments become challenging for commonly used approaches if different contextual instances of this task have to be considered. Furthermore, CARL allows us to provide first evidence that disentangling representation learning of the states from the policy learning with the context facilitates better generalization. By providing variations of diverse benchmarks from classic control, physical simulations, games and a real-world application of RNA design, CARL will allow the community to derive many more such insights on a solid empirical foundation. }
+    title = {CARL: A Benchmark for Contextual and Adaptive Reinforcement Learning},
+    author = {Carolin Benjamins and Theresa Eimer and Frederik Schubert and André Biedenkapp and Bodo Rosenhan and Frank Hutter and Marius Lindauer},
+    year = {2021},
+    booktitle = {Workshop on Ecological Theory of Reinforcement Learning (EcoRL@NeurIPS'21)},
+    journal = {arXiv:2110.02102},
+    arxiv = {arXiv:2110.02102},
+    code = {https://github.com/automl/CARL},
+    bibtex_show={true},
+    abstract = {While Reinforcement Learning has made great strides towards solving ever more complicated tasks, many algorithms are still brittle to even slight changes in their environment. This is a limiting factor for real-world applications of RL. Although the research community continuously aims at improving both robustness and generalization of RL algorithms, unfortunately it still lacks an open-source set of well-defined benchmark problems based on a consistent theoretical framework, which allows comparing different approaches in a fair, reliable and reproducibleway. To fill this gap, we propose CARL, a collection of well-known RL environments extended to contextual RL problems to study generalization. We show the urgent need of such benchmarks by demonstrating that even simple toy environments become challenging for commonly used approaches if different contextual instances of this task have to be considered. Furthermore, CARL allows us to provide first evidence that disentangling representation learning of the states from the policy learning with the context facilitates better generalization. By providing variations of diverse benchmarks from classic control, physical simulations, games and a real-world application of RNA design, CARL will allow the community to derive many more such insights on a solid empirical foundation. }
 }
 
 @inproceedings{eimer-ijcai21,
-title = {DACBench: A Benchmark Library for Dynamic Algorithm Configuration},
-author = {Theresa Eimer and André Biedenkapp and Maximilian Reimer and Steven Adriaensen and Frank Hutter and Marius Lindauer},
-year = {2021},
-booktitle = {Proceedings of the Thirtieth International Joint Conference on
-Artificial Intelligence (IJCAI'21)},
-publisher = {ijcai.org},
-website = {https://www.automl.org/automated-algorithm-design/dac/},
-code = {https://github.com/automl/DACBench},
-arxiv = {2105.08541},
-blog = {https://www.automl.org/dacbench-benchmarking-dynamic-algorithm-configuration/},
-talk = {https://www.youtube.com/watch?v=-G-hLmBI4WM},
-pdf = {21-IJCAI-DACBench.pdf},
-supp = {21-IJCAI-DACBench-supp.pdf},
-abstract = {Dynamic Algorithm Configuration (DAC) aims to dynamically control a target algorithm's hyperparameters in order to improve its performance. Several theoretical and empirical results have demonstrated the benefits of dynamically controlling hyperparameters in domains like evolutionary computation, AI Planning or deep learning. Replicating these results, as well as studying new methods for DAC, however, is difficult since existing benchmarks are often specialized and incompatible with the same interfaces. To facilitate benchmarking and thus research on DAC, we propose DACBench, a benchmark library that seeks to collect and standardize existing DAC benchmarks from different AI domains, as well as provide a template for new ones. For the design of DACBench, we focused on important desiderata, such as (i) flexibility, (ii) reproducibility, (iii) extensibility and (iv) automatic documentation and visualization. To show the potential, broad applicability and challenges of DAC, we explore how a set of six initial benchmarks compare in several dimensions of difficulty. },
+    title = {DACBench: A Benchmark Library for Dynamic Algorithm Configuration},
+    author = {Theresa Eimer and André Biedenkapp and Maximilian Reimer and Steven Adriaensen and Frank Hutter and Marius Lindauer},
+    year = {2021},
+    booktitle = {Proceedings of the Thirtieth International Joint Conference on
+    Artificial Intelligence (IJCAI'21)},
+    bibtex_show={true},
+    publisher = {ijcai.org},
+    website = {https://www.automl.org/automated-algorithm-design/dac/},
+    code = {https://github.com/automl/DACBench},
+    arxiv = {2105.08541},
+    blog = {https://www.automl.org/dacbench-benchmarking-dynamic-algorithm-configuration/},
+    talk = {https://www.youtube.com/watch?v=-G-hLmBI4WM},
+    pdf = {21-IJCAI-DACBench.pdf},
+    supp = {21-IJCAI-DACBench-supp.pdf},
+    abstract = {Dynamic Algorithm Configuration (DAC) aims to dynamically control a target algorithm's hyperparameters in order to improve its performance. Several theoretical and empirical results have demonstrated the benefits of dynamically controlling hyperparameters in domains like evolutionary computation, AI Planning or deep learning. Replicating these results, as well as studying new methods for DAC, however, is difficult since existing benchmarks are often specialized and incompatible with the same interfaces. To facilitate benchmarking and thus research on DAC, we propose DACBench, a benchmark library that seeks to collect and standardize existing DAC benchmarks from different AI domains, as well as provide a template for new ones. For the design of DACBench, we focused on important desiderata, such as (i) flexibility, (ii) reproducibility, (iii) extensibility and (iv) automatic documentation and visualization. To show the potential, broad applicability and challenges of DAC, we explore how a set of six initial benchmarks compare in several dimensions of difficulty. },
 }
 
 @InProceedings{speck-et-al-icaps2021b,
-  pdf =          "21-ICAPS-DAC-PLAN.pdf",
-  code =         "https://github.com/speckdavid/rl-plan",
-  arxiv =        "2006.08246",
-  poster =       "21-ICAPS-DAC-PLAN-poster.pdf",
-  author =       "David Speck and Andr{\'e} Biedenkapp and Frank Hutter and Robert Mattm{\"u}ller and Marius Lindauer",
-  title =        "Learning Heuristic Selection with Dynamic Algorithm Configuration",
-  editor =       "Robert P. Goldman and Susanne Biundo and Michael Katz",
-  booktitle =    "Proceedings of the Thirty-First International Conference on Automated Planning and Scheduling (ICAPS 2021)",
-  year =         "2021",
-  publisher =    "AAAI Press",
-  pages =        "597--605",
-  note =         "Joint first authorship",
-  website =      "https://www.automl.org/automated-algorithm-design/dac/dynamic-algorithm-configuration-for-ai-planning/",
-  talk =         "https://icaps21.icaps-conference.org/exhibition/index.html?channel=152",
-  abstract =     "A key challenge in satisficing planning is to use multiple
+    pdf =          "21-ICAPS-DAC-PLAN.pdf",
+    code =         "https://github.com/speckdavid/rl-plan",
+    arxiv =        "2006.08246",
+    bibtex_show={true},
+    poster =       "21-ICAPS-DAC-PLAN-poster.pdf",
+    author =       "David Speck and Andr{\'e} Biedenkapp and Frank Hutter and Robert Mattm{\"u}ller and Marius Lindauer",
+    title =        "Learning Heuristic Selection with Dynamic Algorithm Configuration",
+    editor =       "Robert P. Goldman and Susanne Biundo and Michael Katz",
+    booktitle =    "Proceedings of the Thirty-First International Conference on Automated Planning and Scheduling (ICAPS 2021)",
+    year =         "2021",
+    publisher =    "AAAI Press",
+    pages =        "597--605",
+    note =         "Joint first authorship",
+    website =      "https://www.automl.org/automated-algorithm-design/dac/dynamic-algorithm-configuration-for-ai-planning/",
+    talk =         "https://icaps21.icaps-conference.org/exhibition/index.html?channel=152",
+    abstract =     "A key challenge in satisficing planning is to use multiple
                   heuristics within one heuristic search. An aggregation of
                   multiple heuristic estimates, for example by taking the
                   maximum, has the disadvantage that bad estimates of a single
@@ -118,158 +126,167 @@ abstract = {Dynamic Algorithm Configuration (DAC) aims to dynamically control a 
 }
 
 @inproceedings{biedenkapp-icml21,
-title = {TempoRL: Learning When to Act},
-author = {André Biedenkapp and Raghu Rajan and Frank Hutter and Marius Lindauer},
-year = {2021},
-booktitle = {Proceedings of the 38th International Conference on Machine Learning (ICML 2021)},
-code = {https://github.com/automl/TempoRL},
-arxiv = {2106.05262},
-talk = {https://slideslive.com/38959338/temporl-learning-when-to-act},
-pdf = {biedenkapp21a.pdf},
-supp = {biedenkapp21a-supp.pdf},
-selected = {true},
-abstract = {Reinforcement learning is a powerful approach to learn behaviour through interactions with an environment. However, behaviours are usually learned in a purely reactive fashion, where an appropriate action is selected based on an observation. In this form, it is challenging to learn when it is necessary to execute new decisions. This makes learning inefficient, especially in environments that need various degrees of fine and coarse control. To address this, we propose a proactive setting in which the agent not only selects an action in a state but also for how long to commit to that action. Our TempoRL approach introduces skip connections between states and learns a skip-policy for repeating the same action along these skips. We demonstrate the effectiveness of TempoRL on a variety of traditional and deep RL environments, showing that our approach is capable of learning successful policies up to an order of magnitude faster than vanilla Q-learning.}
+    title = {TempoRL: Learning When to Act},
+    author = {André Biedenkapp and Raghu Rajan and Frank Hutter and Marius Lindauer},
+    year = {2021},
+    bibtex_show={true},
+    booktitle = {Proceedings of the 38th International Conference on Machine Learning (ICML 2021)},
+    code = {https://github.com/automl/TempoRL},
+    arxiv = {2106.05262},
+    talk = {https://slideslive.com/38959338/temporl-learning-when-to-act},
+    pdf = {biedenkapp21a.pdf},
+    supp = {biedenkapp21a-supp.pdf},
+    selected = {true},
+    abstract = {Reinforcement learning is a powerful approach to learn behaviour through interactions with an environment. However, behaviours are usually learned in a purely reactive fashion, where an appropriate action is selected based on an observation. In this form, it is challenging to learn when it is necessary to execute new decisions. This makes learning inefficient, especially in environments that need various degrees of fine and coarse control. To address this, we propose a proactive setting in which the agent not only selects an action in a state but also for how long to commit to that action. Our TempoRL approach introduces skip connections between states and learns a skip-policy for repeating the same action along these skips. We demonstrate the effectiveness of TempoRL on a variety of traditional and deep RL environments, showing that our approach is capable of learning successful policies up to an order of magnitude faster than vanilla Q-learning.}
 }
 
 @inproceedings{eimer-icml21,
-title = {Self-Paced Context Evaluations for Contextual Reinforcement Learning},
-author = {Theresa Eimer and André Biedenkapp and Frank Hutter and Marius Lindauer},
-year = {2021},
-booktitle = {Proceedings of the 38th International Conference on Machine Learning (ICML 2021)},
-code = {https://github.com/automl/SPaCE},
-arxiv = {2106.05110},
-talk = {https://slideslive.com/38959253/selfpaced-context-evaluation-for-contextual-reinforcement-learning},
-blog = {https://www.automl.org/self-paced-context-evaluation-for-contextual-reinforcement-learning/},
-pdf = {eimer21a.pdf},
-supp = {eimer21a-supp.pdf},
-poster = {21-ICML-SPaCE-poster.pdf},
-abstract = {Reinforcement learning (RL) has made a lot of advances for solving a single problem in a given environment; but learning policies that generalize to unseen variations of a problem remains challenging. To improve sample efficiency for learning on such instances of a problem domain, we present Self-Paced Context Evaluation (SPaCE). Based on self-paced learning, \spc automatically generates \task curricula online with little computational overhead. To this end, SPaCE leverages information contained in state values during training to accelerate and improve training performance as well as generalization capabilities to new instances from the same problem domain. Nevertheless, SPaCE is independent of the problem domain at hand and can be applied on top of any RL agent with state-value function approximation. We demonstrate SPaCE's ability to speed up learning of different value-based RL agents on two environments, showing better generalization capabilities and up to 10x faster learning compared to naive approaches such as round robin or SPDRL, as the closest state-of-the-art approach.}
+    title = {Self-Paced Context Evaluations for Contextual Reinforcement Learning},
+    author = {Theresa Eimer and André Biedenkapp and Frank Hutter and Marius Lindauer},
+    year = {2021},
+    bibtex_show={true},
+    booktitle = {Proceedings of the 38th International Conference on Machine Learning (ICML 2021)},
+    code = {https://github.com/automl/SPaCE},
+    arxiv = {2106.05110},
+    talk = {https://slideslive.com/38959253/selfpaced-context-evaluation-for-contextual-reinforcement-learning},
+    blog = {https://www.automl.org/self-paced-context-evaluation-for-contextual-reinforcement-learning/},
+    pdf = {eimer21a.pdf},
+    supp = {eimer21a-supp.pdf},
+    poster = {21-ICML-SPaCE-poster.pdf},
+    abstract = {Reinforcement learning (RL) has made a lot of advances for solving a single problem in a given environment; but learning policies that generalize to unseen variations of a problem remains challenging. To improve sample efficiency for learning on such instances of a problem domain, we present Self-Paced Context Evaluation (SPaCE). Based on self-paced learning, \spc automatically generates \task curricula online with little computational overhead. To this end, SPaCE leverages information contained in state values during training to accelerate and improve training performance as well as generalization capabilities to new instances from the same problem domain. Nevertheless, SPaCE is independent of the problem domain at hand and can be applied on top of any RL agent with state-value function approximation. We demonstrate SPaCE's ability to speed up learning of different value-based RL agents on two environments, showing better generalization capabilities and up to 10x faster learning compared to naive approaches such as round robin or SPDRL, as the closest state-of-the-art approach.}
 }
 
 @inproceedings{viu-automlicml21a,
-title = {Bag of Baselines for Multi-objective Joint Neural Architecture Search and Hyperparameter Optimization},
-author = {Sergio Izquierdo and Julia Guerrero-Viu and Sven Hauns and Guilherme Miotto and Simon Schrodi and André Biedenkapp and Thomas Elsken and Difan Deng and Marius Lindauer and Frank Hutter},
-year = {2021},
-booktitle = {Workshop on Automated Machine Learning (AutoML@ICML'21)},
-journal = {Workshop on Automated Machine Learning (AutoML@ICML'21)},
-code = {https://github.com/automl/multi-obj-baselines},
-arxiv = {2105.01015},
-talk = {https://slideslive.com/38962449/bag-of-baselines-for-multiobjective-joint-neural-architecture-search-and-hyperparameter-optimization},
-poster = {21-ARXIV-BBMoNASHPO-poster.pdf},
-abstract = {Neural architecture search (NAS) and hyperparameter optimization (HPO) make deep learning accessible to non-experts by automatically finding the architecture of the deep neural network to use and tuning the hyperparameters of the used training pipeline. While both NAS and HPO have been studied extensively in recent years, NAS methods typically assume fixed hyperparameters and vice versa - there exists little work on joint NAS + HPO. Furthermore, NAS has recently often been framed as a multi-objective optimization problem, in order to take, e.g., resource requirements into account. In this paper, we propose a set of methods that extend current approaches to jointly optimize neural architectures and hyperparameters with respect to multiple objectives. We hope that these methods will serve as simple baselines for future research on multi-objective joint NAS + HPO. To facilitate this, all our code is available at this https URL. }
+    title = {Bag of Baselines for Multi-objective Joint Neural Architecture Search and Hyperparameter Optimization},
+    author = {Sergio Izquierdo and Julia Guerrero-Viu and Sven Hauns and Guilherme Miotto and Simon Schrodi and André Biedenkapp and Thomas Elsken and Difan Deng and Marius Lindauer and Frank Hutter},
+    year = {2021},
+    bibtex_show={true},
+    booktitle = {Workshop on Automated Machine Learning (AutoML@ICML'21)},
+    journal = {Workshop on Automated Machine Learning (AutoML@ICML'21)},
+    code = {https://github.com/automl/multi-obj-baselines},
+    arxiv = {2105.01015},
+    talk = {https://slideslive.com/38962449/bag-of-baselines-for-multiobjective-joint-neural-architecture-search-and-hyperparameter-optimization},
+    poster = {21-ARXIV-BBMoNASHPO-poster.pdf},
+    abstract = {Neural architecture search (NAS) and hyperparameter optimization (HPO) make deep learning accessible to non-experts by automatically finding the architecture of the deep neural network to use and tuning the hyperparameters of the used training pipeline. While both NAS and HPO have been studied extensively in recent years, NAS methods typically assume fixed hyperparameters and vice versa - there exists little work on joint NAS + HPO. Furthermore, NAS has recently often been framed as a multi-objective optimization problem, in order to take, e.g., resource requirements into account. In this paper, we propose a set of methods that extend current approaches to jointly optimize neural architectures and hyperparameters with respect to multiple objectives. We hope that these methods will serve as simple baselines for future research on multi-objective joint NAS + HPO. To facilitate this, all our code is available at this https URL. }
 }
 
 @article{rajan-arxiv21,
-title = {MDP Playground: A Design and Debug Testbed for Reinforcement Learning},
-author = {Raghu Rajan and Jessica Lizeth Borja Diaz and Suresh Guttikonda and Fabio Ferreira and André Biedenkapp and Jan Ole von Hartz and Frank Hutter},
-year = {2021},
-arxiv = {1909.07750},
-journal = {arXiv:1909.07750 [cs.LG]},
-code = {https://github.com/automl/mdp-playground},
-abstract = {We present \emph{MDP Playground}, an efficient testbed for Reinforcement Learning (RL) agents with \textit{orthogonal} dimensions that can be controlled independently to challenge agents in different ways and obtain varying degrees of hardness in generated environments. We consider and allow control over a wide variety of dimensions, including \textit{delayed rewards}, \textit{rewardable sequences}, \textit{density of rewards}, \textit{stochasticity}, \textit{image representations}, \textit{irrelevant features}, \textit{time unit}, \textit{action range} and more. We define a parameterised collection of fast-to-run toy environments in \textit{OpenAI Gym} by varying these dimensions and propose to use these for the initial design and development of agents. We also provide wrappers that inject these dimensions into complex environments from \textit{Atari} and \textit{Mujoco} to allow for evaluating agent robustness. We further provide various example use-cases and instructions on how to use \textit{MDP Playground} to design and debug agents. We believe that \textit{MDP Playground} is a valuable testbed for researchers designing new, adaptive and intelligent RL agents and those wanting to unit test their agents.}
+    title = {MDP Playground: A Design and Debug Testbed for Reinforcement Learning},
+    author = {Raghu Rajan and Jessica Lizeth Borja Diaz and Suresh Guttikonda and Fabio Ferreira and André Biedenkapp and Jan Ole von Hartz and Frank Hutter},
+    year = {2021},
+    bibtex_show={true},
+    arxiv = {1909.07750},
+    journal = {arXiv:1909.07750 [cs.LG]},
+    code = {https://github.com/automl/mdp-playground},
+    abstract = {We present \emph{MDP Playground}, an efficient testbed for Reinforcement Learning (RL) agents with \textit{orthogonal} dimensions that can be controlled independently to challenge agents in different ways and obtain varying degrees of hardness in generated environments. We consider and allow control over a wide variety of dimensions, including \textit{delayed rewards}, \textit{rewardable sequences}, \textit{density of rewards}, \textit{stochasticity}, \textit{image representations}, \textit{irrelevant features}, \textit{time unit}, \textit{action range} and more. We define a parameterised collection of fast-to-run toy environments in \textit{OpenAI Gym} by varying these dimensions and propose to use these for the initial design and development of agents. We also provide wrappers that inject these dimensions into complex environments from \textit{Atari} and \textit{Mujoco} to allow for evaluating agent robustness. We further provide various example use-cases and instructions on how to use \textit{MDP Playground} to design and debug agents. We believe that \textit{MDP Playground} is a valuable testbed for researchers designing new, adaptive and intelligent RL agents and those wanting to unit test their agents.}
 }
 
 @article{franke-iclr21a,
-title = {Sample-Efficient Automated Deep Reinforcement Learning},
-author = {Jörg K H Franke and Gregor Köhler and André Biedenkapp and Frank Hutter},
-year = {2021},
-booktitle = {International Conference on Learning Representations (ICLR) 2021},
-journal = {International Conference on Learning Representations (ICLR) 2021},
-website = {https://openreview.net/forum?id=hSjxQ3B7GWq},
-code = {https://github.com/automl/SEARL},
-arxiv = {2009.01555},
-talk = {https://slideslive.com/38954141/sampleefficient-automated-deep-reinforcement-learning},
-blog = {https://www.automl.org/blog-autorl},
-abstract = "Despite significant progress in challenging problems across various domains, applying state-of-the-art deep reinforcement learning (RL) algorithms remains challenging due to their sensitivity to the choice of hyperparameters. This sensitivity can partly be attributed to the non-stationarity of the RL problem, potentially requiring different hyperparameter settings at various stages of the learning process. Additionally, in the RL setting, hyperparameter optimization (HPO) requires a large number of environment interactions, hindering the transfer of the successes in RL to real-world applications. In this work, we tackle the issues of sample-efficient and dynamic HPO in RL. We propose a population-based automated RL (AutoRL) framework to meta-optimize arbitrary off-policy RL algorithms. In this framework, we optimize the hyperparameters and also the neural architecture while simultaneously training the agent. By sharing the collected experience across the population, we substantially increase the sample efficiency of the meta-optimization. We demonstrate the capabilities of our sample-efficient AutoRL approach in a case study with the popular TD3 algorithm in the MuJoCo benchmark suite, where we reduce the number of environment interactions needed for meta-optimization by up to an order of magnitude compared to population-based training."
+    title = {Sample-Efficient Automated Deep Reinforcement Learning},
+    author = {Jörg K H Franke and Gregor Köhler and André Biedenkapp and Frank Hutter},
+    year = {2021},
+    bibtex_show={true},
+    booktitle = {International Conference on Learning Representations (ICLR) 2021},
+    journal = {International Conference on Learning Representations (ICLR) 2021},
+    website = {https://openreview.net/forum?id=hSjxQ3B7GWq},
+    code = {https://github.com/automl/SEARL},
+    arxiv = {2009.01555},
+    talk = {https://slideslive.com/38954141/sampleefficient-automated-deep-reinforcement-learning},
+    blog = {https://www.automl.org/blog-autorl},
+    abstract = "Despite significant progress in challenging problems across various domains, applying state-of-the-art deep reinforcement learning (RL) algorithms remains challenging due to their sensitivity to the choice of hyperparameters. This sensitivity can partly be attributed to the non-stationarity of the RL problem, potentially requiring different hyperparameter settings at various stages of the learning process. Additionally, in the RL setting, hyperparameter optimization (HPO) requires a large number of environment interactions, hindering the transfer of the successes in RL to real-world applications. In this work, we tackle the issues of sample-efficient and dynamic HPO in RL. We propose a population-based automated RL (AutoRL) framework to meta-optimize arbitrary off-policy RL algorithms. In this framework, we optimize the hyperparameters and also the neural architecture while simultaneously training the agent. By sharing the collected experience across the population, we substantially increase the sample efficiency of the meta-optimization. We demonstrate the capabilities of our sample-efficient AutoRL approach in a case study with the popular TD3 algorithm in the MuJoCo benchmark suite, where we reduce the number of environment interactions needed for meta-optimization by up to an order of magnitude compared to population-based training."
 }
 
 @inproceedings{zhang-aistats21,
-title = {On the Importance of Hyperparameter Optimization for Model-based Reinforcement Learning},
-author = {Baohe Zhang and Raghu Rajan and Luis Pineda and Nathan Lambert and André Biedenkapp and Kurtland Chua and Frank Hutter and Roberto Calandra},
-year = {2021},
-booktitle = {Proceedings of the 24th International Conference on Artificial Intelligence and Statistics (AISTATS)'21},
-pdf = {zhang21n.pdf},
-supp = {http://proceedings.mlr.press/v130/zhang21n/zhang21n-supp.zip},
-blog = {https://bair.berkeley.edu/blog/2021/04/19/mbrl/},
-talk = {https://www.youtube.com/watch?v=lH0mgnjr1v4},
-arxiv = {2102.13651},
-code = {https://github.com/automl/HPO_for_RL},
-abstract = {Model-based Reinforcement Learning
-(MBRL) is a promising framework for
-learning control in a data-efficient manner.
-MBRL algorithms can be fairly complex due
-to the separate dynamics modeling and the
-subsequent planning algorithm, and as a
-result, they often possess tens of hyperpa-
-rameters and architectural choices. For this
-reason, MBRL typically requires significant
-human expertise before it can be applied
-to new problems and domains. To alleviate
-this problem, we propose to use automatic
-hyperparameter optimization (HPO). We
-demonstrate that this problem can be tackled
-effectively with automated HPO, which we
-demonstrate to yield significantly improved
-performance compared to human experts.
-In addition, we show that tuning of several
-MBRL hyperparameters dynamically, i.e.
-during the training itself, further improves
-the performance compared to using static
-hyperparameters which are kept fixed for
-the whole training. Finally, our experiments
-provide valuable insights into the effects of
-several hyperparameters, such as plan horizon
-or learning rate and their influence on the
-stability of training and resulting rewards.}
+    title = {On the Importance of Hyperparameter Optimization for Model-based Reinforcement Learning},
+    author = {Baohe Zhang and Raghu Rajan and Luis Pineda and Nathan Lambert and André Biedenkapp and Kurtland Chua and Frank Hutter and Roberto Calandra},
+    year = {2021},
+    bibtex_show={true},
+    booktitle = {Proceedings of the 24th International Conference on Artificial Intelligence and Statistics (AISTATS)'21},
+    pdf = {zhang21n.pdf},
+    supp = {http://proceedings.mlr.press/v130/zhang21n/zhang21n-supp.zip},
+    blog = {https://bair.berkeley.edu/blog/2021/04/19/mbrl/},
+    talk = {https://www.youtube.com/watch?v=lH0mgnjr1v4},
+    arxiv = {2102.13651},
+    code = {https://github.com/automl/HPO_for_RL},
+    abstract = {Model-based Reinforcement Learning
+    (MBRL) is a promising framework for
+    learning control in a data-efficient manner.
+    MBRL algorithms can be fairly complex due
+    to the separate dynamics modeling and the
+    subsequent planning algorithm, and as a
+    result, they often possess tens of hyperpa-
+    rameters and architectural choices. For this
+    reason, MBRL typically requires significant
+    human expertise before it can be applied
+    to new problems and domains. To alleviate
+    this problem, we propose to use automatic
+    hyperparameter optimization (HPO). We
+    demonstrate that this problem can be tackled
+    effectively with automated HPO, which we
+    demonstrate to yield significantly improved
+    performance compared to human experts.
+    In addition, we show that tuning of several
+    MBRL hyperparameters dynamically, i.e.
+    during the training itself, further improves
+    the performance compared to using static
+    hyperparameters which are kept fixed for
+    the whole training. Finally, our experiments
+    provide valuable insights into the effects of
+    several hyperparameters, such as plan horizon
+    or learning rate and their influence on the
+    stability of training and resulting rewards.}
 }
 
 @inproceedings{mueller-metalearn21a,
-title = {In-Loop Meta-Learning with Gradient-Alignment Reward},
-author = {Samuel Müller and André Biedenkapp and Frank Hutter},
-year = {2021},
-booktitle = {AAAI workshop on Meta-Learning Challenges},
-journal = {AAAI workshop on Meta-Learning Challenges},
-code = {https://colab.research.google.com/drive/1_RZd6O3rxZUHJlET9-3wYwV1WJJsLSJb?usp=sharing},
-pdf = {21-OAML-MetaAAAI.pdf},
-abstract = "t the heart of the standard deep learning training loop is
-a greedy gradient step minimizing a given loss. We propose
-to add a second step to maximize training generalization. To
-do this, we optimize the loss of the next training step. While
-computing the gradient for this generally is very expensive
-and many interesting applications consider non-differentiable
-parameters (e.g. due to hard samples), we present a cheap-to-compute and memory-saving reward, the gradient-alignment
-reward (GAR), that can guide the optimization. We use this
-reward to optimize multiple distributions during model training. First, we present the application of GAR to choosing
-the data distribution as a mixture of multiple dataset splits
-in a small scale setting. Second, we show that it can successfully guide learning augmentation strategies competitive
-with state-of-the-art augmentation strategies on CIFAR-10
-and CIFAR-100."
+    title = {In-Loop Meta-Learning with Gradient-Alignment Reward},
+    author = {Samuel Müller and André Biedenkapp and Frank Hutter},
+    year = {2021},
+    bibtex_show={true},
+    booktitle = {AAAI workshop on Meta-Learning Challenges},
+    journal = {AAAI workshop on Meta-Learning Challenges},
+    code = {https://colab.research.google.com/drive/1_RZd6O3rxZUHJlET9-3wYwV1WJJsLSJb?usp=sharing},
+    pdf = {21-OAML-MetaAAAI.pdf},
+    abstract = "t the heart of the standard deep learning training loop is
+    a greedy gradient step minimizing a given loss. We propose
+    to add a second step to maximize training generalization. To
+    do this, we optimize the loss of the next training step. While
+    computing the gradient for this generally is very expensive
+    and many interesting applications consider non-differentiable
+    parameters (e.g. due to hard samples), we present a cheap-to-compute and memory-saving reward, the gradient-alignment
+    reward (GAR), that can guide the optimization. We use this
+    reward to optimize multiple distributions during model training. First, we present the application of GAR to choosing
+    the data distribution as a mixture of multiple dataset splits
+    in a small scale setting. Second, we show that it can successfully guide learning augmentation strategies competitive
+    with state-of-the-art augmentation strategies on CIFAR-10
+    and CIFAR-100."
 }
 
 @article{awad-arxiv20a,
-title = {Squirrel: A Switching Hyperparameter Optimizer Description of the entry by AutoML.org & IOHprofiler to the NeurIPS 2020 BBO challenge},
-author = {Noor Awad and Gresa Shala and Difan Deng and Neeratyoy Mallik and Matthias Feurer and Katharina Eggensperger and André Biedenkapp and Diederick Vermetten and Hao Wang and Carola Doerr and Marius Lindauer and Frank Hutter},
-year = {2020},
-journal = {arXiv:2012.08180 [cs.LG]},
-arxiv = {2012.08180},
-code = "https://github.com/automl/Squirrel-Optimizer-BBO-NeurIPS20-automlorg",
-talk = "https://bbochallenge.com/virtualroom/",
-note = "Winner of the NeurIPS 2020 BBO challenge on the meta-learning friendly track",
-abstract = "In this short note, we describe our submission to the NeurIPS 2020 BBO challenge. Motivated by the fact that different optimizers work well on different problems, our approach switches between different optimizers. Since the team names on the competition's leaderboard were randomly generated ''alliteration nicknames'', consisting of an adjective and an animal with the same initial letter, we called our approach the Switching Squirrel, or here, short, Squirrel."
+    title = {Squirrel: A Switching Hyperparameter Optimizer Description of the entry by AutoML.org & IOHprofiler to the NeurIPS 2020 BBO challenge},
+    author = {Noor Awad and Gresa Shala and Difan Deng and Neeratyoy Mallik and Matthias Feurer and Katharina Eggensperger and André Biedenkapp and Diederick Vermetten and Hao Wang and Carola Doerr and Marius Lindauer and Frank Hutter},
+    year = {2020},
+    bibtex_show={true},
+    journal = {arXiv:2012.08180 [cs.LG]},
+    arxiv = {2012.08180},
+    code = "https://github.com/automl/Squirrel-Optimizer-BBO-NeurIPS20-automlorg",
+    talk = "https://bbochallenge.com/virtualroom/",
+    note = "Winner of the NeurIPS 2020 BBO challenge on the meta-learning friendly track",
+    abstract = "In this short note, we describe our submission to the NeurIPS 2020 BBO challenge. Motivated by the fact that different optimizers work well on different problems, our approach switches between different optimizers. Since the team names on the competition's leaderboard were randomly generated ''alliteration nicknames'', consisting of an adjective and an animal with the same initial letter, we called our approach the Switching Squirrel, or here, short, Squirrel."
 }
 
 @InProceedings{speck-et-al-icaps2020wsprl,
-  arxiv =        "2006.08246v2",
-  code =         "https://github.com/speckdavid/rl-plan",
-  title =        "Learning Heuristic Selection with Dynamic Algorithm Configuration",
-  website =      "https://www.automl.org/automated-algorithm-design/dac/dynamic-algorithm-configuration-for-ai-planning/",
-  author =       "David Speck and Andr{\'e} Biedenkapp and Frank Hutter and Robert Mattm{\"u}ller and Marius Lindauer",
-  booktitle =    "ICAPS 2020 Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL)",
-  year =         "2020",
-  talk =         "https://icaps21.icaps-conference.org/exhibition/index.html?channel=152",
-  pages =        "61--69",
-  note =         "Joint first authorship",
-  abstract =     "A key challenge in satisficing planning is to use multiple
+    arxiv =        "2006.08246v2",
+    bibtex_show={true},
+    code =         "https://github.com/speckdavid/rl-plan",
+    title =        "Learning Heuristic Selection with Dynamic Algorithm Configuration",
+    website =      "https://www.automl.org/automated-algorithm-design/dac/dynamic-algorithm-configuration-for-ai-planning/",
+    author =       "David Speck and Andr{\'e} Biedenkapp and Frank Hutter and Robert Mattm{\"u}ller and Marius Lindauer",
+    booktitle =    "ICAPS 2020 Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL)",
+    year =         "2020",
+    talk =         "https://icaps21.icaps-conference.org/exhibition/index.html?channel=152",
+    pages =        "61--69",
+    note =         "Joint first authorship",
+    abstract =     "A key challenge in satisficing planning is to use multiple
                   heuristics within one heuristic search. An aggregation of
                   multiple heuristic estimates, for example by taking the
                   maximum, has the disadvantage that bad estimates of a single
@@ -295,180 +312,189 @@ abstract = "In this short note, we describe our submission to the NeurIPS 2020 B
 }
 
 @inproceedings{shala-ppsn20,
-title = {Learning Step-Size Adaptation in CMA-ES},
-author = {Gresa Shala and André Biedenkapp and Noor Awad and Steven Adriaensen and Marius Lindauer and Frank Hutter},
-year = {2020},
-booktitle = {Proceedings of the Sixteenth International Conference on Parallel Problem Solving from Nature (PPSN'20)},
-website = {https://www.automl.org/automated-algorithm-design/dac/dac-es/},
-code = {https://github.com/automl/LTO-CMA},
-talk = {https://drive.google.com/file/d/1bhrbdUu-U76iJJtKYhPV3sdo4nI6N6XO/view},
-blog = {https://www.automl.org/learning-step-size-adaptation-in-cma-es/},
-pdf = {20-PPSN-LTO-CMA.pdf},
-poster = {20-PPSN-LTO-CMA-poster.pdf},
-abstract = {An algorithm’s parameter setting often affects its ability to
-solve a given problem, e.g., population-size, mutation-rate or crossover-
-rate of an evolutionary algorithm. Furthermore, some parameters have
-to be adjusted dynamically, such as lowering the mutation-strength over
-time. While hand-crafted heuristics offer a way to fine-tune and dynamically configure these parameters, their design is tedious, time-consuming
-and typically involves analyzing the algorithm’s behavior on simple problems that may not be representative for those that arise in practice. In
-this paper, we show that formulating dynamic algorithm configuration
-as a reinforcement learning problem allows us to automatically learn
-policies that can dynamically configure the mutation step-size parameter of Covariance Matrix Adaptation Evolution Strategy (CMA-ES). We
-evaluate our approach on a wide range of black-box optimization problems, and show that (i) learning step-size policies has the potential to
-improve the performance of CMA-ES; (ii) learned step-size policies can
-outperform the default Cumulative Step-Size Adaptation of CMA-ES;
-and transferring the policies to (iii) different function classes and to (iv)
-higher dimensions is also possible.}
+    title = {Learning Step-Size Adaptation in CMA-ES},
+    bibtex_show={true},
+    author = {Gresa Shala and André Biedenkapp and Noor Awad and Steven Adriaensen and Marius Lindauer and Frank Hutter},
+    year = {2020},
+    booktitle = {Proceedings of the Sixteenth International Conference on Parallel Problem Solving from Nature (PPSN'20)},
+    website = {https://www.automl.org/automated-algorithm-design/dac/dac-es/},
+    code = {https://github.com/automl/LTO-CMA},
+    talk = {https://drive.google.com/file/d/1bhrbdUu-U76iJJtKYhPV3sdo4nI6N6XO/view},
+    blog = {https://www.automl.org/learning-step-size-adaptation-in-cma-es/},
+    pdf = {20-PPSN-LTO-CMA.pdf},
+    poster = {20-PPSN-LTO-CMA-poster.pdf},
+    abstract = {An algorithm’s parameter setting often affects its ability to
+    solve a given problem, e.g., population-size, mutation-rate or crossover-
+    rate of an evolutionary algorithm. Furthermore, some parameters have
+    to be adjusted dynamically, such as lowering the mutation-strength over
+    time. While hand-crafted heuristics offer a way to fine-tune and dynamically configure these parameters, their design is tedious, time-consuming
+    and typically involves analyzing the algorithm’s behavior on simple problems that may not be representative for those that arise in practice. In
+    this paper, we show that formulating dynamic algorithm configuration
+    as a reinforcement learning problem allows us to automatically learn
+    policies that can dynamically configure the mutation step-size parameter of Covariance Matrix Adaptation Evolution Strategy (CMA-ES). We
+    evaluate our approach on a wide range of black-box optimization problems, and show that (i) learning step-size policies has the potential to
+    improve the performance of CMA-ES; (ii) learned step-size policies can
+    outperform the default Cumulative Step-Size Adaptation of CMA-ES;
+    and transferring the policies to (iii) different function classes and to (iv)
+    higher dimensions is also possible.}
 }
 
 
 @inproceedings{biedenkapp-bigicml20,
-title = {Towards TempoRL: Learning When to Act},
-author = {André Biedenkapp and Raghu Rajan and Frank Hutter and Marius Lindauer},
-year = {2020},
-booktitle = {Workshop on Inductive Biases, Invariances and Generalization in RL (BIG@ICML'20)},
-code = {https://github.com/automl/TabularTempoRL},
-talk = {https://slideslive.com/38931351/towards-temporl-learning-when-to-act?ref=speaker-36467},
-pdf = {20-BIG-TempoRL.pdf},
-slides = {20-BIG-TempoRL-slides.pdf},
-abstract = "Reinforcement Learning is a powerful approach
-to learning behaviour through interactions with
-an environment. However, behaviours are learned
-in a purely reactive fashion, where an appropriate
-action is selected based on an observation. In this
-form, it is challenging to learn when it is necessary to make new decisions. This makes learning
-inefficient especially in environments with with
-very fine-grained time steps. Instead we propose
-a more proactive setting in which not only an action is chosen in a state but also for how long
-to commit to that action. We demonstrate the
-effectiveness of our proposed approach on a set
-of small grid worlds, showing that our approach
-is capable of learning successful policies much
-faster than vanilla Q-learning."
+    title = {Towards TempoRL: Learning When to Act},
+    author = {André Biedenkapp and Raghu Rajan and Frank Hutter and Marius Lindauer},
+    year = {2020},
+    bibtex_show={true},
+    booktitle = {Workshop on Inductive Biases, Invariances and Generalization in RL (BIG@ICML'20)},
+    code = {https://github.com/automl/TabularTempoRL},
+    talk = {https://slideslive.com/38931351/towards-temporl-learning-when-to-act?ref=speaker-36467},
+    pdf = {20-BIG-TempoRL.pdf},
+    slides = {20-BIG-TempoRL-slides.pdf},
+    abstract = "Reinforcement Learning is a powerful approach
+    to learning behaviour through interactions with
+    an environment. However, behaviours are learned
+    in a purely reactive fashion, where an appropriate
+    action is selected based on an observation. In this
+    form, it is challenging to learn when it is necessary to make new decisions. This makes learning
+    inefficient especially in environments with with
+    very fine-grained time steps. Instead we propose
+    a more proactive setting in which not only an action is chosen in a state but also for how long
+    to commit to that action. We demonstrate the
+    effectiveness of our proposed approach on a set
+    of small grid worlds, showing that our approach
+    is capable of learning successful policies much
+    faster than vanilla Q-learning."
 }
 
 @inproceedings{eimer-bigicml20,
-title = {Towards Self-Paced Context Evaluations for Contextual Reinforcement Learning},
-author = {Theresa Eimer and André Biedenkapp and Frank Hutter and Marius Lindauer},
-year = {2020},
-code = {https://github.com/automl/SPaCE},
-booktitle = {Workshop on Inductive Biases, Invariances and Generalization in RL (BIG@ICML'20)},
-talk = "https://slideslive.com/38931344/towards-selfpaced-context-evaluation-for-contextual-reinforcement-learning?ref=speaker-36467",
-pdf = "20-BIG-SPaCE.pdf",
-abstract = "Reinforcement Learning has performed very well
-on games and lab-based tasks. However, learning policies across a distribution of instances of
-the same task still remains challenging. Recent
-approaches assume either little variation between
-instances or an unlimited amount of training examples from a given distribution. Both properties
-are not always feasible in real-world applications.
-Thus, we need methods that enable agents to generalize from a limited set of example instances or
-experiences. We present an approach, based on
-self-paced learning, that allows to exploit the information contained in state values during training
-to accelerate and improve training performance
-as well as generalization capabilities, independent
-of the problem domain at hand. The proposed
-Self-Paced Context Evaluation (SPaCE) provides
-a way to automatically generate instance curricula
-online with little computational overhead."
+    title = {Towards Self-Paced Context Evaluations for Contextual Reinforcement Learning},
+    author = {Theresa Eimer and André Biedenkapp and Frank Hutter and Marius Lindauer},
+    year = {2020},
+    code = {https://github.com/automl/SPaCE},
+    booktitle = {Workshop on Inductive Biases, Invariances and Generalization in RL (BIG@ICML'20)},
+    talk = "https://slideslive.com/38931344/towards-selfpaced-context-evaluation-for-contextual-reinforcement-learning?ref=speaker-36467",
+    pdf = "20-BIG-SPaCE.pdf",
+    bibtex_show={true},
+    abstract = "Reinforcement Learning has performed very well
+    on games and lab-based tasks. However, learning policies across a distribution of instances of
+    the same task still remains challenging. Recent
+    approaches assume either little variation between
+    instances or an unlimited amount of training examples from a given distribution. Both properties
+    are not always feasible in real-world applications.
+    Thus, we need methods that enable agents to generalize from a limited set of example instances or
+    experiences. We present an approach, based on
+    self-paced learning, that allows to exploit the information contained in state values during training
+    to accelerate and improve training performance
+    as well as generalization capabilities, independent
+    of the problem domain at hand. The proposed
+    Self-Paced Context Evaluation (SPaCE) provides
+    a way to automatically generate instance curricula
+    online with little computational overhead."
 }
 
 @inproceedings{biedenkapp-ecai20,
-title = {Dynamic Algorithm Configuration: Foundation of a New Meta-Algorithmic Framework},
-author = {André Biedenkapp and Furkan H Bozkurt and Theresa Eimer and Frank Hutter and Marius Lindauer},
-year = {2020},
-booktitle = {Proceedings of the Twenty-fourth European Conference on Artificial Intelligence (ECAI'20)},
-talk =  {https://www.youtube.com/watch?v=wxPYtSGT05s&feature=youtu.be},
-code = {https://github.com/automl/DAC},
-blog = {https://www.automl.org/dynamic-algorithm-configuration/},
-supp = {https://github.com/automl/DAC/blob/master/Appendix.pdf},
-pdf = {20-ecai-dac.pdf},
-selected = {true},
-abstract = "The performance of many algorithms in the fields of
-hard combinatorial problem solving, machine learning or AI in general depends on parameter tuning. Automated methods have been
-proposed to alleviate users from the tedious and error-prone task of
-manually searching for performance-optimized configurations across
-a set of problem instances. However, there is still a lot of untapped
-potential through adjusting an algorithm’s parameters online since
-different parameter values can be optimal at different stages of the
-algorithm. Prior work showed that reinforcement learning is an effective approach to learn policies for online adjustments of algorithm
-parameters in a data-driven way. We extend that approach by formulating the resulting dynamic algorithm configuration as a contextual
-MDP, such that RL not only learns a policy for a single instance, but
-across a set of instances. To lay the foundation for studying dynamic
-algorithm configuration with RL in a controlled setting, we propose
-white-box benchmarks covering major aspects that make dynamic algorithm configuration a hard problem in practice and study the per-
-formance of various types of configuration strategies for them. On
-these white-box benchmarks, we show that (i) RL is a robust candidate for learning configuration policies, outperforming standard pa-
-rameter optimization approaches, such as classical algorithm configuration; (ii) based on function approximation, RL agents can learn to
-generalize to new types of instances; and (iii) self-paced learning can
-substantially improve the performance by selecting a useful sequence
-of training instances automatically."
+    title = {Dynamic Algorithm Configuration: Foundation of a New Meta-Algorithmic Framework},
+    author = {André Biedenkapp and Furkan H Bozkurt and Theresa Eimer and Frank Hutter and Marius Lindauer},
+    year = {2020},
+    bibtex_show={true},
+    booktitle = {Proceedings of the Twenty-fourth European Conference on Artificial Intelligence (ECAI'20)},
+    talk =  {https://www.youtube.com/watch?v=wxPYtSGT05s&feature=youtu.be},
+    code = {https://github.com/automl/DAC},
+    blog = {https://www.automl.org/dynamic-algorithm-configuration/},
+    supp = {https://github.com/automl/DAC/blob/master/Appendix.pdf},
+    pdf = {20-ecai-dac.pdf},
+    selected = {true},
+    abstract = "The performance of many algorithms in the fields of
+    hard combinatorial problem solving, machine learning or AI in general depends on parameter tuning. Automated methods have been
+    proposed to alleviate users from the tedious and error-prone task of
+    manually searching for performance-optimized configurations across
+    a set of problem instances. However, there is still a lot of untapped
+    potential through adjusting an algorithm’s parameters online since
+    different parameter values can be optimal at different stages of the
+    algorithm. Prior work showed that reinforcement learning is an effective approach to learn policies for online adjustments of algorithm
+    parameters in a data-driven way. We extend that approach by formulating the resulting dynamic algorithm configuration as a contextual
+    MDP, such that RL not only learns a policy for a single instance, but
+    across a set of instances. To lay the foundation for studying dynamic
+    algorithm configuration with RL in a controlled setting, we propose
+    white-box benchmarks covering major aspects that make dynamic algorithm configuration a hard problem in practice and study the per-
+    formance of various types of configuration strategies for them. On
+    these white-box benchmarks, we show that (i) RL is a robust candidate for learning configuration policies, outperforming standard pa-
+    rameter optimization approaches, such as classical algorithm configuration; (ii) based on function approximation, RL agents can learn to
+    generalize to new types of instances; and (iii) self-paced learning can
+    substantially improve the performance by selecting a useful sequence
+    of training instances automatically."
 }
 
 @inproceedings{biedenkapp-dso19,
-title = {Towards White-box Benchmarks for Algorithm Control},
-author = {André Biedenkapp and Furkan H. Bozkurt and Frank Hutter and Marius Lindauer},
-year = {2019},
-booktitle = {IJCAI 2019 DSO Workshop},
-arxiv = {1906.07644},
-website = {https://www.automl.org/automated-algorithm-design/dac/},
-abstract = "The performance of many algorithms in the fields of hard combinatorial problem solving, machine learning or AI in general depends on tuned hyperparameter configurations. Automated methods have been proposed to alleviate users from the tedious and error-prone task of manually searching for performance-optimized configurations across a set of problem instances. However there is still a lot of untapped potential through adjusting an algorithm's hyperparameters online since different hyperparameters are potentially optimal at different stages of the algorithm. We formulate the problem of adjusting an algorithm's hyperparameters for a given instance on the fly as a contextual MDP, making reinforcement learning (RL) the prime candidate to solve the resulting algorithm control problem in a data-driven way. Furthermore, inspired by applications of algorithm configuration, we introduce new white-box benchmarks suitable to study algorithm control. We show that on short sequences, algorithm configuration is a valid choice, but that with increasing sequence length a black-box view on the problem quickly becomes infeasible and RL performs better."
+    title = {Towards White-box Benchmarks for Algorithm Control},
+    author = {André Biedenkapp and Furkan H. Bozkurt and Frank Hutter and Marius Lindauer},
+    year = {2019},
+    booktitle = {IJCAI 2019 DSO Workshop},
+    arxiv = {1906.07644},
+    bibtex_show={true},
+    website = {https://www.automl.org/automated-algorithm-design/dac/},
+    abstract = "The performance of many algorithms in the fields of hard combinatorial problem solving, machine learning or AI in general depends on tuned hyperparameter configurations. Automated methods have been proposed to alleviate users from the tedious and error-prone task of manually searching for performance-optimized configurations across a set of problem instances. However there is still a lot of untapped potential through adjusting an algorithm's hyperparameters online since different hyperparameters are potentially optimal at different stages of the algorithm. We formulate the problem of adjusting an algorithm's hyperparameters for a given instance on the fly as a contextual MDP, making reinforcement learning (RL) the prime candidate to solve the resulting algorithm control problem in a data-driven way. Furthermore, inspired by applications of algorithm configuration, we introduce new white-box benchmarks suitable to study algorithm control. We show that on short sequences, algorithm configuration is a valid choice, but that with increasing sequence length a black-box view on the problem quickly becomes infeasible and RL performs better."
 }
 
 @article{lindauer-arxiv19,
-title = {BOAH: A Tool Suite for Multi-Fidelity Bayesian Optimization & Analysis of Hyperparameters},
-author = {Marius Lindauer and Katharina Eggensperger and Matthias Feurer and André Biedenkapp and Joshua Marben and Philipp Müller and Frank Hutter},
-year = {2019},
-journal = {arXiv:1908.06756 [cs.LG]},
-arxiv = {arXiv:1908.06756},
-code  = {https://github.com/automl/BOAH},
-website = {https://www.ml4aad.org/ixautoml/boah},
-abstract = {Hyperparameter optimization and neural architecture search can become prohibitively expensive for regular black-box Bayesian optimization because the training and evaluation of a single model can easily take several hours. To overcome this, we introduce a comprehensive tool suite for effective multi-fidelity Bayesian optimization and the analysis of its runs. The suite, written in Python, provides a simple way to specify complex design spaces, a robust and efficient combination of Bayesian optimization and HyperBand, and a comprehensive analysis of the optimization process and its outcomes.}
+    title = {BOAH: A Tool Suite for Multi-Fidelity Bayesian Optimization & Analysis of Hyperparameters},
+    author = {Marius Lindauer and Katharina Eggensperger and Matthias Feurer and André Biedenkapp and Joshua Marben and Philipp Müller and Frank Hutter},
+    year = {2019},
+    bibtex_show={true},
+    journal = {arXiv:1908.06756 [cs.LG]},
+    arxiv = {arXiv:1908.06756},
+    code  = {https://github.com/automl/BOAH},
+    website = {https://www.ml4aad.org/ixautoml/boah},
+    abstract = {Hyperparameter optimization and neural architecture search can become prohibitively expensive for regular black-box Bayesian optimization because the training and evaluation of a single model can easily take several hours. To overcome this, we introduce a comprehensive tool suite for effective multi-fidelity Bayesian optimization and the analysis of its runs. The suite, written in Python, provides a simple way to specify complex design spaces, a robust and efficient combination of Bayesian optimization and HyperBand, and a comprehensive analysis of the optimization process and its outcomes.}
 }
 
 @inproceedings{lindauer-dso19,
-title = {Towards Assessing the Impact of Bayesian Optimization's Own Hyperparameters},
-author = {Marius Lindauer and Matthias Feurer and Katharina Eggensperger and André Biedenkapp and Frank Hutter},
-year = {2019},
-booktitle = {IJCAI 2019 DSO Workshop},
-arxiv = {1908.06674},
-slides = {19-DSO_BOBO-slides.pdf},
-abstract = "Bayesian Optimization (BO) is a common approach for hyperparameter optimization (HPO) in automated machine learning. Although it is well-accepted that HPO is crucial to obtain well-performing machine learning models, tuning BO's own hyperparameters is often neglected. In this paper, we empirically study the impact of optimizing BO's own hyperparameters and the transferability of the found settings using a wide range of benchmarks, including artificial functions, HPO and HPO combined with neural architecture search. In particular, we show (i) that tuning can improve the any-time performance of different BO approaches, that optimized BO settings also perform well (ii) on similar problems and (iii) partially even on problems from other problem families, and (iv) which BO hyperparameters are most important."
+    title = {Towards Assessing the Impact of Bayesian Optimization's Own Hyperparameters},
+    author = {Marius Lindauer and Matthias Feurer and Katharina Eggensperger and André Biedenkapp and Frank Hutter},
+    year = {2019},
+    bibtex_show={true},
+    booktitle = {IJCAI 2019 DSO Workshop},
+    arxiv = {1908.06674},
+    slides = {19-DSO_BOBO-slides.pdf},
+    abstract = "Bayesian Optimization (BO) is a common approach for hyperparameter optimization (HPO) in automated machine learning. Although it is well-accepted that HPO is crucial to obtain well-performing machine learning models, tuning BO's own hyperparameters is often neglected. In this paper, we empirically study the impact of optimizing BO's own hyperparameters and the transferability of the found settings using a wide range of benchmarks, including artificial functions, HPO and HPO combined with neural architecture search. In particular, we show (i) that tuning can improve the any-time performance of different BO approaches, that optimized BO settings also perform well (ii) on similar problems and (iii) partially even on problems from other problem families, and (iv) which BO hyperparameters are most important."
 }
 
 @inproceedings{biedenkapp-lion18a,
-title = {CAVE: Configuration Assessment, Visualization and Evaluation},
-author = {André Biedenkapp and Joshua Marben and Marius Lindauer and Frank Hutter},
-year = {2018},
-booktitle = {Proceedings of the International Conference on Learning and Intelligent Optimization (LION'18)},
-pdf       = {18-LION12-CAVE.pdf},
-slides    = {18-LION12-CAVE-slides.pdf},
-code      = {https://github.com/automl/CAVE},
-website   = {https://www.automl.org/ixautoml/cave/},
-talk      = {https://drive.google.com/file/d/1lNu6sZGB3lcr6fYI1tzLOJzILISO9WE1/view},
-abstract  = {To achieve peak performance of an algorithm (in particular
-for problems in AI), algorithm configuration is often necessary to determine a well-performing parameter configuration. So far, most studies in
-algorithm configuration focused on proposing better algorithm configuration procedures or on improving a particular algorithm’s performance.
-In contrast, we use all the collected empirical performance data gathered during algorithm configuration runs to generate extensive insights
-into an algorithm, given problem instances and the used configurator. To
-this end, we provide a tool, called CAVE , that automatically generates
-comprehensive reports and insightful figures from all available empirical
-data. CAVE aims to help algorithm and configurator developers to better
-understand their experimental setup in an automated fashion. We showcase its use by thoroughly analyzing the well studied SAT solver spear
-on a benchmark of software verification instances and by empirically
-verifying two long-standing assumptions in algorithm configuration and
-parameter importance: (i) Parameter importance changes depending on
-the instance set at hand and (ii) Local and global parameter importance
-analysis do not necessarily agree with each other.}
+    title = {CAVE: Configuration Assessment, Visualization and Evaluation},
+    author = {André Biedenkapp and Joshua Marben and Marius Lindauer and Frank Hutter},
+    year = {2018},
+    bibtex_show={true},
+    booktitle = {Proceedings of the International Conference on Learning and Intelligent Optimization (LION'18)},
+    pdf       = {18-LION12-CAVE.pdf},
+    slides    = {18-LION12-CAVE-slides.pdf},
+    code      = {https://github.com/automl/CAVE},
+    website   = {https://www.automl.org/ixautoml/cave/},
+    talk      = {https://drive.google.com/file/d/1lNu6sZGB3lcr6fYI1tzLOJzILISO9WE1/view},
+    abstract  = {To achieve peak performance of an algorithm (in particular
+    for problems in AI), algorithm configuration is often necessary to determine a well-performing parameter configuration. So far, most studies in
+    algorithm configuration focused on proposing better algorithm configuration procedures or on improving a particular algorithm’s performance.
+    In contrast, we use all the collected empirical performance data gathered during algorithm configuration runs to generate extensive insights
+    into an algorithm, given problem instances and the used configurator. To
+    this end, we provide a tool, called CAVE , that automatically generates
+    comprehensive reports and insightful figures from all available empirical
+    data. CAVE aims to help algorithm and configurator developers to better
+    understand their experimental setup in an automated fashion. We showcase its use by thoroughly analyzing the well studied SAT solver spear
+    on a benchmark of software verification instances and by empirically
+    verifying two long-standing assumptions in algorithm configuration and
+    parameter importance: (i) Parameter importance changes depending on
+    the instance set at hand and (ii) Local and global parameter importance
+    analysis do not necessarily agree with each other.}
 }
 
 @inproceedings{biedenkapp-aaai17a,
-title =     {Efficient Parameter Importance Analysis via Ablation with Surrogates},
-author =    {André Biedenkapp and Marius Lindauer and Katharina Eggensperger and Chris Fawcett and Holger H Hoos and Frank Hutter},
-year =      {2017},
-booktitle = {Proceedings of the Thirty-First Conference on Artificial Intelligence (AAAI'17)},
-pages =     {773--779},
-poster =    "surrogate_ablation_aaai17_poster.pdf",
-pdf =       "surrogate_ablation_aaai17.pdf",
-code =      "https://bitbucket.org/biedenka/ablation/src/master/",
-abstract =  "To achieve peak performance, it is often necessary to adjust the parameters of a given algorithm to the class of problem instances to be solved; this is known to be the case for popular solvers for a broad range of AI problems, including AI planning, propositional satisfiability (SAT) and answer set programming (ASP). To avoid tedious and often highly sub-optimal manual tuning of such parameters by means of ad-hoc methods, general-purpose algorithm configuration procedures can be used to automatically find performance-optimizing parameter settings. While impressive performance gains are often achieved in this manner, additional, potentially costly parameter importance analysis is required to gain insights into what parameter changes are most responsible for those improvements. Here, we show how the running time cost of ablation analysis, a well-known general-purpose approach for assessing parameter importance, can be reduced substantially by using regression models of algorithm performance constructed from data collected during the configuration process. In our experiments, we demonstrate speed-up factors between 33 and 14 727 for ablation analysis on various configuration scenarios from AI planning, SAT, ASP and mixed integer programming (MIP)."
+    title =     {Efficient Parameter Importance Analysis via Ablation with Surrogates},
+    author =    {André Biedenkapp and Marius Lindauer and Katharina Eggensperger and Chris Fawcett and Holger H Hoos and Frank Hutter},
+    year =      {2017},
+    bibtex_show={true},
+    booktitle = {Proceedings of the Thirty-First Conference on Artificial Intelligence (AAAI'17)},
+    pages =     {773--779},
+    poster =    "surrogate_ablation_aaai17_poster.pdf",
+    pdf =       "surrogate_ablation_aaai17.pdf",
+    code =      "https://bitbucket.org/biedenka/ablation/src/master/",
+    abstract =  "To achieve peak performance, it is often necessary to adjust the parameters of a given algorithm to the class of problem instances to be solved; this is known to be the case for popular solvers for a broad range of AI problems, including AI planning, propositional satisfiability (SAT) and answer set programming (ASP). To avoid tedious and often highly sub-optimal manual tuning of such parameters by means of ad-hoc methods, general-purpose algorithm configuration procedures can be used to automatically find performance-optimizing parameter settings. While impressive performance gains are often achieved in this manner, additional, potentially costly parameter importance analysis is required to gain insights into what parameter changes are most responsible for those improvements. Here, we show how the running time cost of ablation analysis, a well-known general-purpose approach for assessing parameter importance, can be reduced substantially by using regression models of algorithm performance constructed from data collected during the configuration process. In our experiments, we demonstrate speed-up factors between 33 and 14 727 for ablation analysis on various configuration scenarios from AI planning, SAT, ASP and mixed integer programming (MIP)."
 }
