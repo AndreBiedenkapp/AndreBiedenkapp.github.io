@@ -160,7 +160,7 @@ def comparison_rls_one_step_and_plot(*args):
         optimal_solve_steps.append(comparison_total_steps_optimal + 1)
         optimal_solves += 1
         rng_optimal = np.random.RandomState(optimal_solves)
-        comparison_problem = rng.randint(2, size=comparison_problem.shape).astype(bool)
+        comparison_problem_optimal = rng.randint(2, size=comparison_problem.shape).astype(bool)
         comparison_current_step_optimal = 0
         comparison_total_steps_optimal = 0
         comparison_problem_optimal = comparison_problem.copy()
