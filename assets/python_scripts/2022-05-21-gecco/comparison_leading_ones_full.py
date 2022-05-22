@@ -163,7 +163,6 @@ def comparison_rls_one_step_and_plot(*args):
         comparison_problem_optimal = rng.randint(2, size=comparison_problem.shape).astype(bool)
         comparison_current_step_optimal = 0
         comparison_total_steps_optimal = 0
-        comparison_problem_optimal = comparison_problem.copy()
 
         pyscript.write('avg-comparison-optimal', f'{np.mean(optimal_solve_steps):6.1f}')
         pyscript.write('solved-comparison-optimal', str(optimal_solves))
