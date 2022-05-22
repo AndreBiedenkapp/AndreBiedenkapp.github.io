@@ -156,8 +156,8 @@ def comparison_rls_one_step_and_plot(*args):
 
     if optimal_fitness != n_cells:
         comparison_total_steps_optimal += 1
-        optimal_solve_steps.append(comparison_total_steps_optimal + 1)
     else:
+        optimal_solve_steps.append(comparison_total_steps_optimal + 1)
         optimal_solves += 1
         rng_optimal = np.random.RandomState(optimal_solves)
         comparison_problem = rng.randint(2, size=comparison_problem.shape).astype(bool)
