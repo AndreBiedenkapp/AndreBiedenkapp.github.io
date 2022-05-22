@@ -83,7 +83,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 # -----------------------------------------------------------------------------
 
 blog_name: Blog # your blog must have a name for it to show up in the nav bar
-blog_description: A collection of blog posts I have written or contributed to.
+blog_description: Collection of blog posts I have written/contributed to.
 permalink: /blog/:year/:title/
 
 # Pagination
