@@ -84,6 +84,7 @@ panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 blog_name: Blog # your blog must have a name for it to show up in the nav bar
 blog_description: Collection of blog posts I have written/contributed to.
+blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -93,6 +94,13 @@ pagination:
 # Comments
 disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+
+# External sources.
+# If you have blog posts published on medium.com or other exteranl sources,
+# you can display them in your blog by adding a link to the RSS feed.
+external_sources:
+  - name: automl.org
+    rss_url: https://www.automl.org/author/abiedenkapp/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -147,8 +155,8 @@ plugins:
   - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
-  - jekyll-github-metadata
   - jekyll-imagemagick
+  - jekyll-minifier
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
@@ -159,35 +167,25 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path:            "assets/**/*.*"
+      path: "assets/**/*.*"
     values:
-      sitemap:         false
-# Extras
-github: [metadata]
+      sitemap: false
 
 # -----------------------------------------------------------------------------
-# Jekyll optimization
+# Jekyll Minifier
 # -----------------------------------------------------------------------------
 
-# HTML remove comments (<!-- .... -->)
-remove_HTML_comments: false
-
-# HTML beautifier (_plugins/beautify.rb) / https://github.com/threedaymonk/htmlbeautifier
-beautify: false # This function has conflict with the code snippets, they can be displayed incorrectly
-
-# HTML minify (_plugins/minify.rb) Thanks to: https://www.ffbit.com/blog/2021/03/17/html-minification-in-jekyll.html
-minify: false
-
-# CSS/SASS minify
-sass:
-  style: compressed
+jekyll-minifier:
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
@@ -225,6 +223,7 @@ scholar:
 
   query: "@*"
 
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, talk, note] # Filter out certain bibtex entry keywords used internally from the bib output
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images

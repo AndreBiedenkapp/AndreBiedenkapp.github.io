@@ -4,6 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: 
 nav: true
+nav_order: 2
 ---
 
 During the time of my PhD studies at the university of Freiburg, I have been involved in teaching in the following courses:
