@@ -61,7 +61,7 @@ def do_plot(problem, current_step, total_steps):
         ctx.font = '10px serif'
         ctx.fillStyle = 'black'
         value_str = f'{problem[0, s]:d}'
-        ctx.fillText(value_str, 1. + position[1] * (cell_width + border_width) + cell_width / 2 - cell_width * .2,
+        ctx.fillText(value_str, 1. + position[1] * (cell_width + border_width) + cell_width / 2 - cell_width * .1,
                      1. + position[0] * (cell_height + cell_height) + cell_height / 2 + cell_height * .2)
 
     fitness = get_fitness(problem)
