@@ -27,4 +27,4 @@ I am interested in all facets of artificial intelligence. My research focuses on
   *  Learning to Learn
   *  (Deep) Reinforcement Learning
   *  Bayesian Optimization
-  *  Automated Hyperparameter Optimization
+  *  Automated Machine Learning and Reinforcement Learning
