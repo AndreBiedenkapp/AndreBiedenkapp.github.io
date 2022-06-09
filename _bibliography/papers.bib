@@ -1,13 +1,33 @@
 ---
 ---
 
+@article{sass-arxiv22a,
+    title = {DeepCAVE: An Interactive Analysis Tool for Automated Machine Learning},
+    author = {René Sass and Eddie Bergman and André Biedenkapp and Frank Hutter and Marius Lindauer},
+    year = {2022},
+    journal = {arXiv:2206.03493 [cs.LG]},
+    bibtex_show={true},
+    arxiv = {arXiv:2206.03493},
+    website = {https://www.automl.org/ixautoml/deepcave/},
+    code = {https://github.com/automl/DeepCAVE},
+    doi = {10.48550/arXiv.2206.03493},
+    pdf = {https://arxiv.org/pdf/2206.03493.pdf},
+    abstract = {Automated Machine Learning (AutoML) is used more than ever before to support users in determining efficient hyperparameters, neural architectures, or even full machine learning pipelines. However, users tend to mistrust the optimization process and its results due to a lack of transparency, making manual tuning still widespread. We introduce DeepCAVE, an interactive framework to analyze and monitor state-of-the-art optimization procedures for AutoML easily and ad hoc. By aiming for full and accessible transparency, DeepCAVE builds a bridge between users and AutoML and contributes to establishing trust. Our framework's modular and easy-to-extend nature provides users with automatically generated text, tables, and graphic visualizations. We show the value of DeepCAVE in an exemplary use-case of outlier detection, in which our framework makes it easy to identify problems, compare multiple runs and interpret optimization processes. The package is freely available on GitHub this https URL.}
+}
+
 @inproceedings{biedenkapp-prl22a,
     title = {Learning Domain-Independent Policies for Open List Selection},
     author = {André Biedenkapp and David Speck and Silvan Sievers and Frank Hutter and Marius Lindauer and Jendrik Seipp},
     year = {2022},
     booktitle = {Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL @ ICAPS'22)},
     bibtex_show={true},
-    pdf={22-PRL-DAC4AIPlanning.pdf}
+    pdf={22-PRL-DAC4AIPlanning.pdf},
+    abstract={Since its proposal over a decade ago, LAMA has been considered one of the best-performing satisficing classical planners. Its key component is heuristic search with multiple open
+              lists, each using a different heuristic function to order states. Even with a very simple, ad-hoc policy for open list selection, LAMA achieves state-of-the-art results. In this paper, we
+              propose to use dynamic algorithm configuration to learn such policies in a principled and data-driven manner. On the learning side, we show how to train a reinforcement learning agent
+              over several heterogeneous environments, aiming at zero-shot generalization to new related domains. On the planning side, our experimental results show that the trained policies often
+              reach the performance of LAMA, and sometimes even perform better. Furthermore, our analysis of different policies shows that prioritizing states reached via preferred operators
+              is crucial, explaining the strong performance of LAMA.}
 }
 
 @inproceedings{biedenkapp-gecco22a,
@@ -49,6 +69,7 @@
     journal = {arXiv:2205.13881 [cs.AI]},
     bibtex_show={true},
     arxiv = {arXiv:2205.13881},
+    pdf = {https://arxiv.org/pdf/2205.13881.pdf},
     website = {https://www.automl.org/automated-algorithm-design/dac/},
     code = {https://github.com/automl/2022_JAIR_DAC_experiments},
     abstract = {The performance of an algorithm often critically depends on its parameter configuration. While a variety of automated algorithm configuration methods have been proposed to relieve users from the tedious and error-prone task of manually tuning parameters, there is still a lot of untapped potential as the learned configuration is static, i.e., parameter settings remain fixed throughout the run. However, it has been shown that some algorithm parameters are best adjusted dynamically during execution, e.g., to adapt to the current part of the optimization landscape. Thus far, this is most commonly achieved through hand-crafted heuristics. A promising recent alternative is to automatically learn such dynamic parameter adaptation policies from data. In this article, we give the first comprehensive account of this new field of automated dynamic algorithm configuration (DAC), present a series of recent advances, and provide a solid foundation for future research in this field. Specifically, we (i) situate DAC in the broader historical context of AI research; (ii) formalize DAC as a computational problem; (iii) identify the methods used in prior-art to tackle this problem; (iv) conduct empirical case studies for using DAC in evolutionary optimization, AI planning, and machine learning.}
@@ -61,6 +82,7 @@
     journal = {arXiv:2202.04500},
     bibtex_show={true},
     arxiv = {arXiv:2202.04500},
+    pdf = {https://arxiv.org/pdf/2202.04500.pdf},
     code = {https://github.com/automl/CARL/tree/icml_2022},
     abstract = {While Reinforcement Learning (RL) has made great strides towards solving increasingly complicated problems, many algorithms are still brittle to even slight changes in environments. Contextual Reinforcement Learning (cRL) provides a theoretical framework to model such changes in a principled manner, thereby enabling flexible, precise and interpretable task specification and generation. Thus, cRL is an important formalization for studying generalization in RL. In this work, we reason about solving cRL in theory and practice. We show that theoretically optimal behavior in contextual Markov Decision Processes requires explicit context information. In addition, we empirically explore context-based task generation, utilizing context information in training and propose cGate, our state-modulating policy architecture. To this end, we introduce the first benchmark library designed for generalization based on cRL extensions of popular benchmarks, CARL. In short: Context matters! }
 }
