@@ -26,5 +26,4 @@ I am interested in all facets of artificial intelligence. My research focuses on
   *  Dynamic Algorithm Configuration
   *  Learning to Learn
   *  (Deep) Reinforcement Learning
-  *  Bayesian Optimization
   *  Automated Machine Learning and Reinforcement Learning

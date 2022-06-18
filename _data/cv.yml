@@ -1,0 +1,141 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: André Biedenkapp
+    - name: Date of Birth
+      value: 13th July 1992
+    - name: Languages
+      value: German (native), English (fluent), French (beginner)
+
+- title: Reserach Interests and Selected Published Works
+  type: nested_list
+  contents:
+    - title: Dynamic Algorithm Configuration
+      items:
+        - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/20-ecai-dac.pdf\">Dynamic Algorithm Configuration: Foundation of a New Meta-Algorithmic Framework</a>"
+        - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/21-ICAPS-DAC-PLAN.pdf\">Learning Heuristic Selection with Dynamic Algorithm Configuration</a>"
+        - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/20-PPSN-LTO-CMA.pdf\">Learning Step-Size Adaptation in CMA-ES</a>"
+        - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/21-IJCAI-DACBench.pdf\">DACBench: A Benchmark Library for Dynamic Algorithm Configuration</a>"
+        - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/22-gecco.pdf\">Theory-inspired Parameter Control Benchmarks for Dynamic Algorithm Configuration</a>"
+    - title: Learning to Learn
+      items:
+        - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/biedenkapp21a.pdf\">TempoRL: Learning When to Act</a>"
+        - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/eimer21a.pdf\">Self-Paced Context Evaluations for Contextual Reinforcement Learning</a>"
+    - title: Deep Reinforcement Learning
+      items:
+        - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/zhang21n.pdf\">On the Importance of Hyperparameter Optimization for Model-based Reinforcement Learning</a>"
+    - title: Automated Machine Learning and Reinforcement Learning
+      items:
+        - "<a href=\"https://openreview.net/pdf?id=hSjxQ3B7GWq\">Sample-Efficient Automated Deep Reinforcement Learning</a>"
+        - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/22-JAIR-AutoRL.pdf\">Automated Reinforcement Learning (AutoRL): A Survey and Open Problems</a>"
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Machine Learning
+      institution: Machine Learning Lab, University of Freiburg, Germany
+      year: Oct 2017 - Now
+      description:
+        - "Advisor: Prof. Dr. Frank Hutter"
+        - "Second Advisor: Prof. Dr. Marius Lindauer"
+        - "Working Title: Dynamic Algorithm Configuration"
+    - title: Summer School
+      institution: <a href="http://rlss.inria.fr/">Reinforcement Learning Summer SCOOL (RLSS'19)</a>
+      year: July 2019
+    - title: Master of Science - Computer Science
+      institution: University of Freiburg, Germany
+      year: 2014 - 2017
+      description:
+        - "Thesis: <a href=\"https://ml.informatik.uni-freiburg.de/~biedenka/master_thesis/2017_PIAC_Biedenkapp.pdf\">Per Instance Algorithm Configuration</a>"
+        - "Supervisor: Dr. Marius Lindauer"
+        - "First Examiner: Prof. Dr. Frank Hutter"
+        - "Second Examiner: Prof. Dr. Bernhard Nebel"
+    - title: Bachelor of Science - Computer Science
+      institution: University of Freiburg, Germany
+      year: 2011 - 2014
+      description:
+        - "Thesis: Data Analysis for the Selection of Recording Channels on Multielectrode-Arrays"
+        - "Supervisor: Prof. Dr. Wolfram Burgard"
+
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Scientific Researcher
+      institution: Machine Learning Lab, University of Freiburg
+      year: 2017 - Now
+
+    - title: Student Assistance
+      institution: Machine Learning Lab, University of Freiburg
+      year: 2015 - 2017
+      description:
+        - Assisting in the implementation of research projects
+
+    - title: Student Assistant
+      institution: Chair of Computer Architecture, University of Freiburg
+      year: 2014
+      description:
+        - Maintenance of the mobile robots for the hardware lab-course
+
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Automated Machine Learning (Massive Open Online Course)
+      year: 2021 - Now
+      description:
+        - Creation of coding exercises. Involved in setting up the MOOC
+
+    - title: Automated Machine Learning (Flipped Classroom)
+      year: 2020 - Now
+      description:
+        - Creation and grading of exercises & final project. Setting up online teaching through Zoom and GitHub classroom.
+
+    - title: Automated Machine Learning
+      year: 2019
+      description:
+        - Creation and grading of exercises & final project.
+
+    - title: Machine Learning for Automated Algorithm Design
+      year: 2017 - 2019
+      description:
+        - Creation and grading of exercises & final project.
+
+    - title: Hardware Lab-Course
+      year: 2014
+      description:
+        - Assisting students with practical exercises
+
+- title: Program Committee Membership
+  type: time_table
+  contents:
+    - year: 2022
+      description:
+        - EWRL, NeurIPS, Journal of the ACM, AutoML Conference, ALOE@ICLR, Computational Intelligence Journal
+    - year: 2021
+      description:
+        - Journal of the ACM, NeurIPS Datasets and Benchmarks (Track 1 & Track 2), NeurIPS, AutoML@ICML, ICML
+    - year: 2020
+      description:
+        - ECAI, AutoML@ICML
+    - year: 2019
+      description:
+        - ICML, AutoML@ICML
+    - year: 2018
+      description:
+        - AAAI, AutoML@ICML
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - "<a href=\"https://gecco-2022.sigevo.org/Best-Paper-Nominations\">Nominated for the Best Paper Award at GECCO'22</a>"
+    - year: 2021
+      items:
+        - "<a href=\"https://icml.cc/Conferences/2021/Reviewers\">Best Reviewers Award (Top 10%) ICML'21</a>"
+    - year: 2020
+      items:
+        - "<a href=\"https://bbochallenge.com/leaderboard/\">1st place on the meta-learning track leaderboard of the Black-Box Optimization Competition@NeurIPS'20</a>"
+        - "<a href=\"https://bbochallenge.com/altleaderboard/\">3rd place on the main track of the Black-Box Optimization Competition @NeurIPS'20</a>"

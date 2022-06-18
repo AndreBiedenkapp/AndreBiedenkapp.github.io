@@ -73,7 +73,11 @@
               </li>
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
+                {%- if p.short_title %}
+                <a class="nav-link text-lowercase" href="{{ p.url | relative_url }}">{{ p.short_title }}
+                {%- else -%}
                 <a class="nav-link text-lowercase" href="{{ p.url | relative_url }}">{{ p.title }}
+                {%- endif %}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
