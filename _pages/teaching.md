@@ -7,6 +7,8 @@ nav: true
 nav_order: 2
 ---
 
+For up to date information on my involvement in teaching please check [the teaching website of the machine learning group in Freiburg](https://ml.informatik.uni-freiburg.de/teaching)
+
 During the time of my PhD studies at the university of Freiburg, I have been involved in teaching in the following courses:
 
     2022: Teaching Assistant: Automated Machine Learning
