@@ -2,15 +2,15 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr">
-        <!--{%- if entry.abbr -%}
+        <!--<div class="col-sm-2 abbr">
+        &lt;!&ndash;{%- if entry.abbr -%}
           {%- if site.data.venues[entry.abbr] -%}
           <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
           {%- else -%}
           <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
-        {%- endif -%}-->
-        </div>
+        {%- endif -%}&ndash;&gt;
+        </div>-->
 
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
@@ -23,7 +23,8 @@
           <div class="author">
           {%- for author in entry.author_array -%}
             {%- assign author_is_self = false -%}
-            {%- if author.last == site.scholar.last_name%}
+            {%- assign tmp = author.last | replace:'*','' -%}
+            {%- if tmp == site.scholar.last_name %}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
               {%- endif -%}
@@ -40,14 +41,14 @@
             
             {%- if forloop.length == 1 -%}
               {%- if author_is_self %}
-                <em>{{author.first}} {{author.last}}</em>
+                <b>{{author.first}} {{author.last}}</b>
               {%- else -%}
                 {{author.first}} {{author.last}}
               {%- endif -%}
             {%- else -%}
               {%- unless forloop.last -%}
                 {% if author_is_self %}
-                  <em>{{author.first}} {{author.last}}</em>,&nbsp;
+                  <b>{{author.first}} {{author.last}}</b>,&nbsp;
                 {%- else -%}
                   {% if coauthor_url -%}
                     <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
@@ -57,7 +58,7 @@
                 {%- endif -%}
               {%- else -%}
                 {% if author_is_self -%}
-                  and <em>{{author.first}} {{author.last}}</em>
+                  and <b>{{author.first}} {{author.last}}</b>
                 {% else -%}
                   {%- if coauthor_url -%}
                     and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
@@ -85,10 +86,21 @@
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
           {%- endif -%}
           {%- if entry.note -%}
-            {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }} <small>{{entry.note}}</small>{%- endcapture -%}
+            {%- capture entrynote -%}{{ " " }}<small><span style="color: #82828299">{{'Note: '}}{{entry.note}}</span></small>{%- endcapture -%}
           {%- else -%}
-            {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+            {%- capture entrynote -%}{%- endcapture -%}
           {%- endif -%}
+          {%- if entry.joint_first -%}
+            {%- capture entryjf -%}{{ " " }}<small><b>{{ '*Joint first authorship' }}</b></small>{%- endcapture -%}
+          {%- else -%}
+            {%- capture entryjf -%}{%- endcapture -%}
+          {%- endif -%}
+          {%- if entry.award -%}
+            {%- capture entryaward -%}{{ " " }}<small>🏅<span style="color: #F29105 !important">{{entry.award}}</span></small>{%- endcapture -%}
+          {%- else -%}
+            {%- capture entryaward -%}{%- endcapture -%}
+          {%- endif -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{{ entryjf }}{{ entryaward }}<br />{{ entrynote }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
@@ -160,7 +172,7 @@
           {% if entry.bibtex_show -%}
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
-            {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
+            {% highlight bibtex %}{{ entry.bibtex  | replace:'*','' | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
         </div>

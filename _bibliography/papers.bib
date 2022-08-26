@@ -34,17 +34,18 @@
 
 @inproceedings{biedenkapp-gecco22a,
     title = {Theory-inspired Parameter Control Benchmarks for Dynamic Algorithm Configuration},
-    author = {André Biedenkapp and Nguyen Dang and Martin S. Krejca and Frank Hutter and Carola Doerr},
+    author = {André Biedenkapp* and Nguyen Dang* and Martin S. Krejca* and Frank Hutter and Carola Doerr},
     year = {2022},
     arxiv = {arXiv:2202.03259},
     booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference ({GECCO}'22)},
     pdf = {paper/22-gecco.pdf},
-    note = {Joint first authorship: André Biedenkapp \& Nguyen Dang \& Martin S. Krejca, <a href="https://gecco-2022.sigevo.org/Best-Paper-Nominations">Won the best paper award on the GECH track.</a>},
+    award = {Won the best paper award on the <a href="https://gecco-2022.sigevo.org/Best-Paper-Awards#GECH_Track">GECH track.</a>},
     website = {https://www.automl.org/automated-algorithm-design/dac/},
     code = {https://github.com/ndangtt/LeadingOnesDAC},
     blog = {https://andrebiedenkapp.github.io/blog/2022/gecco/},
     selected = {true},
     bibtex_show={true},
+    joint_first={true},
     talk={https://youtu.be/xgljDu5qE-w},
     abstract = {It has long been observed that the performance of evolutionary algorithms and other randomized search heuristics can benefit from a non-static choice of the parameters that steer their optimization behavior. Mechanisms that identify suitable configurations on the fly ("parameter control") or via a dedicated training process ("dynamic algorithm configuration") are therefore an important component of modern evolutionary computation frameworks. Several approaches to address the dynamic parameter setting problem exist, but we barely understand which ones to prefer for which applications. As in classical benchmarking, problem collections with a known ground truth can offer very meaningful insights in this context. Unfortunately, settings with well-understood control policies are very rare.
     One of the few exceptions for which we know which parameter settings minimize the expected runtime is the LeadingOnes problem. We extend this benchmark by analyzing optimal control policies that can select the parameters only from a given portfolio of possible values. This also allows us to compute optimal parameter portfolios of a given size. We demonstrate the usefulness of our benchmarks by analyzing the behavior of the DDQN reinforcement learning approach for dynamic algorithm configuration.}
@@ -142,14 +143,14 @@
     arxiv =        "2006.08246",
     bibtex_show={true},
     poster =       "poster/21-ICAPS-DAC-PLAN-poster.pdf",
-    author =       "David Speck and Andr{\'e} Biedenkapp and Frank Hutter and Robert Mattm{\"u}ller and Marius Lindauer",
+    author =       "David Speck* and Andr{\'e} Biedenkapp* and Frank Hutter and Robert Mattm{\"u}ller and Marius Lindauer",
     title =        "Learning Heuristic Selection with Dynamic Algorithm Configuration",
     editor =       "Robert P. Goldman and Susanne Biundo and Michael Katz",
     booktitle =    "Proceedings of the Thirty-First International Conference on Automated Planning and Scheduling (ICAPS 2021)",
     year =         "2021",
     publisher =    "AAAI Press",
     pages =        "597--605",
-    note =         "Joint first authorship: David Speck \& André Biedenkapp",
+    joint_first =  "true",
     website =      "https://www.automl.org/automated-algorithm-design/dac/dynamic-algorithm-configuration-for-ai-planning/",
     talk =         "https://icaps21.icaps-conference.org/exhibition/index.html?channel=152",
     abstract =     "A key challenge in satisficing planning is to use multiple
@@ -328,7 +329,7 @@
     arxiv = {2012.08180},
     code = "https://github.com/automl/Squirrel-Optimizer-BBO-NeurIPS20-automlorg",
     talk = "https://bbochallenge.com/virtualroom/",
-    note = "Winner of the NeurIPS 2020 BBO challenge on the meta-learning friendly track",
+    award = {Winner of the NeurIPS 2020 BBO challenge on the <a href="https://bbochallenge.com/altleaderboard/">meta-learning friendly track</a>},
     abstract = "In this short note, we describe our submission to the NeurIPS 2020 BBO challenge. Motivated by the fact that different optimizers work well on different problems, our approach switches between different optimizers. Since the team names on the competition's leaderboard were randomly generated ''alliteration nicknames'', consisting of an adjective and an animal with the same initial letter, we called our approach the Switching Squirrel, or here, short, Squirrel."
 }
 
@@ -339,12 +340,12 @@
     code =         "https://github.com/speckdavid/rl-plan",
     title =        "Learning Heuristic Selection with Dynamic Algorithm Configuration",
     website =      "https://www.automl.org/automated-algorithm-design/dac/dynamic-algorithm-configuration-for-ai-planning/",
-    author =       "David Speck and Andr{\'e} Biedenkapp and Frank Hutter and Robert Mattm{\"u}ller and Marius Lindauer",
+    author =       "David Speck* and Andr{\'e} Biedenkapp* and Frank Hutter and Robert Mattm{\"u}ller and Marius Lindauer",
     booktitle =    "ICAPS 2020 Workshop on Bridging the Gap Between AI Planning and Reinforcement Learning (PRL)",
     year =         "2020",
     talk =         "https://icaps21.icaps-conference.org/exhibition/index.html?channel=152",
     pages =        "61--69",
-    note =         "Joint first authorship: David Speck \& André Biedenkapp",
+    joint_first =  "true",
     abstract =     "A key challenge in satisficing planning is to use multiple
                   heuristics within one heuristic search. An aggregation of
                   multiple heuristic estimates, for example by taking the
@@ -373,7 +374,7 @@
 @inproceedings{shala-ppsn20,
     title = {Learning Step-Size Adaptation in CMA-ES},
     bibtex_show={true},
-    author = {Gresa Shala and André Biedenkapp and Noor Awad and Steven Adriaensen and Marius Lindauer and Frank Hutter},
+    author = {Gresa Shala* and André Biedenkapp* and Noor Awad and Steven Adriaensen and Marius Lindauer and Frank Hutter},
     year = {2020},
     booktitle = {Proceedings of the Sixteenth International Conference on Parallel Problem Solving from Nature (PPSN'20)},
     website = {https://www.automl.org/automated-algorithm-design/dac/dac-es/},
@@ -381,7 +382,7 @@
     talk = {https://drive.google.com/file/d/1bhrbdUu-U76iJJtKYhPV3sdo4nI6N6XO/view},
     blog = {https://www.automl.org/learning-step-size-adaptation-in-cma-es/},
     pdf = {paper/20-PPSN-LTO-CMA.pdf},
-    note = {Joint first authorship: Gresa Shala \& André Biedenkapp},
+    joint_first = {true},
     poster = {poster/20-PPSN-LTO-CMA-poster.pdf},
     abstract = {An algorithm’s parameter setting often affects its ability to
     solve a given problem, e.g., population-size, mutation-rate or crossover-
@@ -497,6 +498,7 @@
     pdf = {https://arxiv.org/pdf/1906.07644.pdf},
     poster = "poster/Whitebox@COSEAL_poster.pdf",
     slides = {slides/2019_DSO_WBforAlgorithmControl.pdf},
+    note = {In this early work on DAC we refered to "dynamic algorithm configuraiton" as "algorithm control"},
     abstract = "The performance of many algorithms in the fields of hard combinatorial problem solving, machine learning or AI in general depends on tuned hyperparameter configurations. Automated methods have been proposed to alleviate users from the tedious and error-prone task of manually searching for performance-optimized configurations across a set of problem instances. However there is still a lot of untapped potential through adjusting an algorithm's hyperparameters online since different hyperparameters are potentially optimal at different stages of the algorithm. We formulate the problem of adjusting an algorithm's hyperparameters for a given instance on the fly as a contextual MDP, making reinforcement learning (RL) the prime candidate to solve the resulting algorithm control problem in a data-driven way. Furthermore, inspired by applications of algorithm configuration, we introduce new white-box benchmarks suitable to study algorithm control. We show that on short sequences, algorithm configuration is a valid choice, but that with increasing sequence length a black-box view on the problem quickly becomes infeasible and RL performs better."
 }
 
