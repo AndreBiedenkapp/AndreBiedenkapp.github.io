@@ -59,9 +59,14 @@
         - "Supervisor: Prof. Dr. Wolfram Burgard"
 
 
-- title: Work Experience
+- title: Experience
   type: time_table
   contents:
+    - title: COSEAL General Chair
+      year: SEPT 2022 - NOW
+      institution: "<a href=\"https://www.coseal.net/organisation/\">COSEAL.net</a>"
+      description:
+        - "Jointly with Alexander Tornede and Lennart Schäpermeier"
     - title: Scientific Researcher
       institution: Machine Learning Lab, University of Freiburg
       year: 2017 - Now
@@ -107,12 +112,9 @@
       description:
         - Assisting students with practical exercises
 
-- title: Professional Service & Program Committee Membership
+- title: Program Committee Membership
   type: time_table
   contents:
-    - year: SEPT 2022 - NOW
-      description:
-        - "<a href=\"https://www.coseal.net/organisation/\">General Chair of COSEAL</a>, jointly with Alexander Tornede and Lennart Schäpermeier"
     - year: 2022
       description:
         - EWRL, NeurIPS, Journal of the ACM, AutoML Conference, ALOE@ICLR, Computational Intelligence Journal
@@ -142,3 +144,4 @@
       items:
         - "<a href=\"https://bbochallenge.com/leaderboard/\">1st place on the meta-learning track leaderboard of the Black-Box Optimization Competition@NeurIPS'20</a>"
         - "<a href=\"https://bbochallenge.com/altleaderboard/\">3rd place on the main track of the Black-Box Optimization Competition @NeurIPS'20</a>"
+

@@ -1,0 +1,11 @@
+github_users:
+  - AndreBiedenkapp
+
+github_repos:
+  - automl/DAC
+  - automl/DACBench/
+  - automl/TempoRL
+  - automl/CARL
+  - automl/SMAC3
+  - automl/ParameterImportance
+  - automl/CAVE

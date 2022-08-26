@@ -7,6 +7,7 @@ subtitle: PhD student at the <a href='https://ml.informatik.uni-freiburg.de/'>Ma
 profile:
   align: right
   image: biedenkapp.png
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Room 00-012</p>
     <p>Georges-Köhler-Allee 74</p>
