@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: 
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 For up to date information on my involvement in teaching please check [the teaching website of the machine learning group in Freiburg](https://ml.informatik.uni-freiburg.de/teaching)
