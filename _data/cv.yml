@@ -107,9 +107,12 @@
       description:
         - Assisting students with practical exercises
 
-- title: Program Committee Membership
+- title: Professional Service & Program Committee Membership
   type: time_table
   contents:
+    - year: SEPT 2022 - NOW
+      description:
+        - "<a href=\"https://www.coseal.net/organisation/\">General Chair of COSEAL</a>, jointly with Alexander Tornede and Lennart Schäpermeier"
     - year: 2022
       description:
         - EWRL, NeurIPS, Journal of the ACM, AutoML Conference, ALOE@ICLR, Computational Intelligence Journal
