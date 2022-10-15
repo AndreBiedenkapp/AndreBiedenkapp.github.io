@@ -35,11 +35,11 @@
   contents:
     - title: PhD in Machine Learning
       institution: Machine Learning Lab, University of Freiburg, Germany
-      year: Oct 2017 - Now
+      year: Oct 2017 - Oct 2022
       description:
         - "Advisor: Prof. Dr. Frank Hutter"
         - "Second Advisor: Prof. Dr. Marius Lindauer"
-        - "Working Title: Dynamic Algorithm Configuration"
+        - "Title: Dynamic Algorithm Configuration by Reinforcement Learning"
     - title: Summer School
       institution: <a href="http://rlss.inria.fr/">Reinforcement Learning Summer SCOOL (RLSS'19)</a>
       year: July 2019
