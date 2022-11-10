@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student at the <a href='https://ml.informatik.uni-freiburg.de/'>Machine Learning Lab in Freiburg</a>.
+subtitle: Researcher at the <a href='https://ml.informatik.uni-freiburg.de/'>Machine Learning Lab in Freiburg</a>.
 
 profile:
   align: right
