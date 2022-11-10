@@ -18,13 +18,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Since October 2017 I am a PhD student at the Machine Learning Group in Freiburg under the supervision of 
-[Frank Hutter](https://ml.informatik.uni-freiburg.de/~hutter) and [Marius Lindauer](https://www.tnt.uni-hannover.de/staff/lindauer/).
-Before that I completed my master and bachelor degrees in computer science at the University of Freiburg.
-
-I am interested in all facets of artificial intelligence. My research focuses on new ways to control the behavior of algorithms online. More precisely my research areas include:
-
-  *  Dynamic Algorithm Configuration
-  *  Learning to Learn
-  *  (Deep) Reinforcement Learning
-  *  Automated Machine Learning and Reinforcement Learning
+I am a researcher at the University of Freiburg, Germany. My primary research interest is in the field of artificial intelligence, with a focus on automated machine learning and algorithm configuration, i.e., the problem of automatically tuning (machine learning) algorithms to maximize their performance. In particular, I focus on using reinforcement learning to tackle the problem of dynamically configuring algorithms. I completed my bachelor’s degree in 2015 and my master’s degree in 2017 in computer science at the University of Freiburg. From February 2018 to October 2022, I did my Ph.D. at the University of Freiburg, at the Machine Learning Chair under the supervision of Prof. Dr. Frank Hutter and Prof. Dr. Marius Lindauer (Leibniz University Hannover). In October 2022 I successfully defended my PhD (Dr. rer. nat.) with the topic ‘Dynamic Algorithm Configuration by Reinforcement Learning’.
