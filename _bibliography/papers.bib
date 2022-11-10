@@ -1,13 +1,21 @@
 ---
 ---
-@phdthesis{biedenkapp22,
+@PhdThesis{biedenkapp22,
 title = {Dynamic Algorithm Configuration by Reinforcement Learning},
 author = {André Biedenkapp},
 year = {2022},
+bibtex_show={true},
 address = {Freiburg, Germany},
 school = {University of Freiburg, Department of Computer Science, Machine Learning Chair},
 note = {Grade: Summa Cum Laude (best possible grade)},
-pdf = {https://ml.informatik.uni-freiburg.de/wp-content/uploads/2022/11/2022_Dissertation_Andre_Biedenkapp.pdf}
+pdf = {https://ml.informatik.uni-freiburg.de/wp-content/uploads/2022/11/2022_Dissertation_Andre_Biedenkapp.pdf},
+website = {https://freidok.uni-freiburg.de/data/230869},
+abstract = {The performance of algorithms, be it in the domain of machine learning, hard combinatorial problem solving or AI in general depends on their many parameters. Tuning an algorithm manually, however, is error-prone and very time-consuming. Many, if not most, algorithms are iterative in nature. Thus, they traverse a potentially diverse solution space, which might require different parameter settings at different stages to behave optimally. Further, algorithms are often used for solving a diverse set of problem instances, which by themselves might require different parameters. Taking all of this into account is infeasible for a human designer. Automated methods have therefore been proposed to mitigate human errors and minimize manual efforts. While such meta-algorithmic methods have shown large successes, there is still a lot of untapped potentials as prior approaches typically only consider configurations that do not change during an algorithm’s run or do not adapt to the problem instance.
+
+In this dissertation, we present the first framework that is capable of dynamically
+configuring algorithms, in other words, capable of adapting configurations to the problem instance at hand during an algorithm’s solving process. To this end, we model the dynamic algorithm configuration (DAC) problem as a contextual Markov decision process. This enables us to learn dynamic configuration policies in a data-driven way by means of reinforcement learning.
+
+We empirically demonstrate the effectiveness of our framework on a diverse set of problem settings consisting of artificial benchmarks, evolutionary algorithms, AI planning systems, as well as deep learning. We show that DAC outperforms previous meta-algorithmic approaches. Building on these successes, we formulate the first standardized interface for dynamic configuration and an extensive benchmark to facilitate reproducibility and lower the barrier of entry for new researchers into this novel research field. Lastly, our work on DAC feeds back into the reinforcement learning paradigm. Through the lens of DAC, we identify shortcomings in current state-of-the-art approaches and demonstrate how to solve these. In particular, intending to learn general policies for DAC, our work pushes the boundaries of generalization in reinforcement learning. We demonstrate how to efficiently incorporate domain knowledge when training general agents and propose to move from a reactive way of doing reinforcement learning to a proactive way by learning when to make new decisions.}
 }
 
 @inproceedings{shala-metalearn22a,
@@ -16,7 +24,13 @@ pdf = {https://ml.informatik.uni-freiburg.de/wp-content/uploads/2022/11/2022_Dis
     year = {2022},
     booktitle = {Workshop on Meta-Learning (MetaLearn@NeurIPS'22)},
     bibtex_show={true},
-    pdf = {https://openreview.net/forum?id=RyAl60VhTcG}
+    pdf = {https://openreview.net/forum?id=RyAl60VhTcG},
+    abstract={It is well established that Reinforcement Learning (RL) 
+is very brittle and sensitive to the choice of hyperparameters. This prevents RL methods from being usable out of the box.
+The field of automated RL (AutoRL) aims at automatically configuring the RL pipeline, to both make RL usable by a broader audience, as well as reveal its full potential. 
+Still, there has been little progress towards this goal as new AutoRL methods often are evaluated with incompatible experimental protocols.
+Furthermore, the typically high cost of experimentation prevents a thorough and meaningful comparison of different AutoRL methods or established hyperparameter optimization (HPO) methods from the automated Machine Learning (AutoML) community.
+To alleviate these issues, we propose the first tabular AutoRL Benchmark for studying the hyperparameters of RL algorithms. We consider the hyperparameter search spaces of five well established RL methods (PPO, DDPG, A2C, SAC, TD3) across 22 environments for which we compute and provide the reward curves. This enables HPO methods to simply query our benchmark as a lookup table, instead of actually training agents. Thus, our benchmark offers a testbed for very fast, fair, and reproducible experimental protocols for comparing future black-box, gray-box, and online HPO methods for RL.}
 }
 
 
@@ -26,7 +40,8 @@ pdf = {https://ml.informatik.uni-freiburg.de/wp-content/uploads/2022/11/2022_Dis
     year = {2022},
     booktitle = {Workshop on Meta-Learning (MetaLearn@NeurIPS'22)},
     bibtex_show={true},
-    pdf = {https://openreview.net/forum?id=oJp7uTL7ox-}
+    pdf = {https://openreview.net/forum?id=oJp7uTL7ox-},
+    abstract = {Despite having achieved spectacular milestones in an array of important real-world applications, most Reinforcement Learning (RL) methods are very brittle concerning their hyperparameters. Notwithstanding the crucial importance of setting the hyperparameters in training state-of-the-art agents, the task of hyperparameter optimization (HPO) in RL is understudied. In this paper, we propose a novel gray-box Bayesian Optimization technique for HPO in RL, that enriches Gaussian Processes with reward curve estimations based on generalized logistic functions. We thus about the performance of learning algorithms, transferring information across configurations and about epochs of the learning algorithm. In a very large-scale experimental protocol, comprising 5 popular RL methods (DDPG, A2C, PPO, SAC, TD3), 22 environments (OpenAI Gym: Mujoco, Atari, Classic Control), and 7 HPO baselines, we demonstrate that our method significantly outperforms current HPO practices in RL.}
 }
 
 @inproceedings{sass-realml22a,
