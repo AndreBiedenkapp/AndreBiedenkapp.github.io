@@ -39,7 +39,7 @@
       description:
         - "Advisor: Prof. Dr. Frank Hutter"
         - "Second Advisor: Prof. Dr. Marius Lindauer"
-        - "Title: Dynamic Algorithm Configuration by Reinforcement Learning"
+        - "Title: <a href=\"https://ml.informatik.uni-freiburg.de/wp-content/uploads/2022/11/2022_Dissertation_Andre_Biedenkapp.pdf\">Dynamic Algorithm Configuration by Reinforcement Learning</a>"
     - title: Summer School
       institution: <a href="http://rlss.inria.fr/">Reinforcement Learning Summer SCOOL (RLSS'19)</a>
       year: July 2019
