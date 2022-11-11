@@ -87,6 +87,10 @@
 - title: Teaching Experience
   type: time_table
   contents:
+    - title: Lab Course Automated Machine Learning
+      year: 2022
+    - title: Seminar on Dynamic Algorithm Configuration and Optimization
+      year: 2022
     - title: Automated Machine Learning (Massive Open Online Course)
       year: 2021 - Now
       description:
