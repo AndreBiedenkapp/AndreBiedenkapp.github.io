@@ -6,5 +6,5 @@ inline: True
 ---
 
 🎉 I successfully defended my PhD thesis with the title **Dynamic Algorithm Configuration by Reinforcement Learning** with
-*summa cum laude* (the best possible grade) 🥳
+*<span style="color: #F29105 !important">summa cum laude</span>* (the best possible grade) 🥳
 
