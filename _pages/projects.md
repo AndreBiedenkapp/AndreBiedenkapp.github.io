@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 permalink: /projects/
-nav: false
+nav: true
 display_categories: [DAC, other]
 nav_order: 3
 horizontal: false
