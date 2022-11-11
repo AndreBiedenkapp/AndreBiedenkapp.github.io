@@ -117,7 +117,7 @@
   contents:
     - year: 2022
       description:
-        - EWRL, NeurIPS, Journal of the ACM, AutoML Conference, ALOE@ICLR, Computational Intelligence Journal
+        - JAIR, TEVC, EWRL, NeurIPS, Journal of the ACM, AutoML Conference, ALOE@ICLR, Computational Intelligence Journal
     - year: 2021
       description:
         - Journal of the ACM, NeurIPS Datasets and Benchmarks (Track 1 & Track 2), NeurIPS, AutoML@ICML, ICML
