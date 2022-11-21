@@ -140,6 +140,9 @@
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
+          {%- if entry.openreview %}
+            <a href="https://openreview.net/forum?id={{ entry.openreview }}" class="btn btn-sm z-depth-0" role="button">OpenReview</a>
+          {%- endif %}
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
