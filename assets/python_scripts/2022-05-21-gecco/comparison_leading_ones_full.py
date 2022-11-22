@@ -1,5 +1,5 @@
 import numpy as np
-from pyodide import create_once_callable
+from pyodide.ffi import create_once_callable
 from js import console, requestAnimationFrame, clearTimeout, setTimeout  # clearInterval, setInterval (as alternatives)
 
 # Get the HTML Input and output elements (Copy of HTML is show at the end of the file)

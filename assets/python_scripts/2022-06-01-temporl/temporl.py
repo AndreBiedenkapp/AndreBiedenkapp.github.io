@@ -7,7 +7,7 @@ import time
 
 from js import (console, document, devicePixelRatio, ImageData, Uint8ClampedArray,
                 CanvasRenderingContext2D as Context2d, setTimeout, clearTimeout)
-from pyodide import create_once_callable, create_proxy
+from pyodide.ffi import create_once_callable, create_proxy
 
 LEFT = 0
 UP = 1
