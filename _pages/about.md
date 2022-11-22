@@ -12,6 +12,7 @@ profile:
     <p>Room 00-030</p>
     <p>Georges-Köhler-Allee 52</p>
     <p>79110 Freiburg, Germany</p>
+    <p style="margin: 10px 0 0 0; font-size: 75% !important">My 3 word address: <a href='https://what3words.com/wardrobe.collects.sushi'>wardrobe.collects.sushi</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
