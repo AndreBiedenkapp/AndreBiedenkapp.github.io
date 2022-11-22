@@ -67,7 +67,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: AndreBiedenkapp # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: AndreBiedenkapp # your Twitter handle
+twitter_username: # your Twitter handle
+mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 scholar_userid: WvtpDmcAAAAJ # your Google Scholar ID
 orcid_id: 0000-0002-8703-8559 # your ORCID ID
@@ -83,7 +84,7 @@ dblp_url: https://dblp1.uni-trier.de/pid/195/8188.html # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  Feel free to tweet me or drop a line via email.
+  Feel free to drop me a line via email.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -177,7 +178,6 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
-  - jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings
