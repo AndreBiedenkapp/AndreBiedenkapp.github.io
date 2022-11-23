@@ -9,10 +9,10 @@ profile:
   image: andre_defense_headshot.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Room 00-030</p>
-    <p>Georges-Köhler-Allee 52</p>
+    <p>Room 00-011</p>
+    <p>Georges-Köhler-Allee 74</p>
     <p>79110 Freiburg, Germany</p>
-    <p style="margin: 10px 0 0 0; font-size: 75% !important">My 3 word address: <a href='https://what3words.com/wardrobe.collects.sushi'>wardrobe.collects.sushi</a></p>
+    <p style="margin: 10px 0 0 0; font-size: 75% !important">My 3 word address: <a href='https://what3words.com/park.gravel.removes'>park.gravel.removes</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
