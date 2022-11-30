@@ -101,7 +101,7 @@
           {%- elsif entry.type == "inproceedings" -%}
             {%- capture entrytype -%}<em>In {{entry.booktitle}}</em> {%- endcapture -%}
           {%- elsif entry.type == "phdthesis" -%}
-            {%- capture entrytype -%}PhD thesis, {{entry.school}},{%- endcapture -%}
+            {%- capture entrytype -%}PhD thesis, {{entry.school}}{%- endcapture -%}
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
           {%- endif -%}
@@ -109,7 +109,21 @@
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
           {%- endif -%}
           {%- if entry.year -%}
-            {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
+            {%- capture entryyear -%}{{ ", " }}{{entry.year}}{%- endcapture -%}
+          {%- endif -%}
+          {%- if entry.volume -%}
+            {%- if entry.number -%}
+              {%- capture entryvolume -%}{{ ", " }}{{entry.volume}}{{ "(" }}{{entry.number}}{{ ")" }}{%- endcapture -%}
+            {%- else -%}
+              {%- capture entryvolume -%}{{ ", " }}{{entry.volume}}{%- endcapture -%}
+            {%- endif -%}
+          {%- else -%}
+            {%- capture entryvolume -%}{%- endcapture -%}
+          {%- endif -%}
+          {%- if entry.pages -%}
+            {%- capture entrypages -%}{{ ", pp. "}}{{entry.pages}}{%- endcapture -%}
+          {%- else -%}
+            {%- capture entrypages -%}{%- endcapture -%}
           {%- endif -%}
           {%- if entry.note -%}
             {%- capture entrynote -%}{{ " " }}<small><span style="color: #82828299">{{'Note: '}}{{entry.note}}</span></small>{%- endcapture -%}
@@ -126,7 +140,7 @@
           {%- else -%}
             {%- capture entryaward -%}{%- endcapture -%}
           {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{{ entryjf }}{{ entryaward }}<br />{{ entrynote }}{%- endcapture -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entryvolume }}{{ entrypages }}{{ entrymonth }}{{ entryyear }}{{ entryjf }}{{ entryaward }}<br />{{ entrynote }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
