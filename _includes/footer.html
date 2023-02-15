@@ -18,8 +18,9 @@
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
         {%- if site.last_updated -%}
-        Last updated: {{ "now" | date: '%B %d, %Y' }}.
+        Last updated: {{ "now" | date: '%b %d, %Y' }}.
         {%- endif %}
+        <a href="{{ site.url }}{{ site.baseurl }}/privacy-policy">Privacy Policy</a>.
       </div>
     </footer>
     {%- endif %}
