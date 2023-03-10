@@ -35,7 +35,7 @@
   contents:
     - title: PhD in Machine Learning
       institution: Machine Learning Lab, University of Freiburg, Germany
-      year: Oct 2017 - Oct 2022
+      year: Feb 2018 - Oct 2022
       description:
         - "Advisor: Prof. Dr. Frank Hutter"
         - "Second Advisor: Prof. Dr. Marius Lindauer"
@@ -62,6 +62,11 @@
 - title: Experience
   type: time_table
   contents:
+    - title: AutoML Conference Online Experience Chair
+      year: 2023
+      institution: "<a href=\"https://2023.automl.cc/\">automl.cc</a>"
+      description:
+        - "Jointly with Hayeon Lee, Mohammed Abdelfattah and Richard Song"
     - title: COSEAL General Chair
       year: SEPT 2022 - NOW
       institution: "<a href=\"https://www.coseal.net/organisation/\">COSEAL.net</a>"
@@ -119,6 +124,9 @@
 - title: Program Committee Membership
   type: time_table
   contents:
+    - year: 2023
+      description:
+        - ICML, AutoML
     - year: 2022
       description:
         - JAIR, TEVC, EWRL, NeurIPS, Journal of the ACM, AutoML Conference, ALOE@ICLR, Computational Intelligence Journal
