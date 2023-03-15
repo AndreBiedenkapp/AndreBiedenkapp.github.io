@@ -6,3 +6,4 @@ inline: True
 ---
 
 I'll be chairing the online experience of this year's <a href="https://2023.automl.cc/organizers/">AutoML Conference</a> jointly with Hayeon Lee, Mohammed Abdelfattah and Richard Song.
+Checkout the blog post <a href="https://2023.automl.cc/blog/hybrid-conference/">here</a> for more details.
