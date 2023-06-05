@@ -1,5 +1,34 @@
 ---
 ---
+@article{benjamins-tmlr23a,
+title = "Contextualize Me – The Case for Context in Reinforcement Learning",
+abstract = "While Reinforcement Learning (RL) has made great strides towards solving increasingly
+complicated problems, many algorithms are still brittle to even slight environmental changes.
+Contextual Reinforcement Learning (cRL) provides a framework to model such changes in
+a principled manner, thereby enabling flexible, precise and interpretable task specification
+and generation. Our goal is to show how the framework of cRL contributes to improving
+zero-shot generalization in RL through meaningful benchmarks and structured reasoning
+about generalization tasks. We confirm the insight that optimal behavior in cRL requires
+context information, as in other related areas of partial observability. To empirically validate
+this in the cRL framework, we provide various context-extended versions of common RL
+environments. They are part of the first benchmark library, CARL, designed for generalization
+based on cRL extensions of popular benchmarks, which we propose as a testbed to further
+study general agents. We show that in the contextual setting, even simple RL environments
+become challenging - and that naive solutions are not enough to generalize across complex
+context spaces.",
+author = "Carolin Benjamins and Theresa Eimer and Frederik Schubert and Aditya Mohan and Sebastian Döhler and André Biedenkapp and Bodo Rosenhahn and Frank Hutter and Marius Lindauer",
+year = "2023",
+journal = "Transactions on Machine Learning Research",
+issn = "2835-8856",
+openreview={Y42xVBQusn},
+bibtex_show={true},
+arxiv = {arXiv:2202.04500},
+website = {https://www.automl.org/contextual-rl/},
+pdf = {paper/23-TMLR-CARL.pdf},
+code = {https://github.com/automl/CARL},
+}
+
+
 @inproceedings{shala-iclr23a,
     title = {Gray-Box Gaussian Processes for Automated Reinforcement Learning},
     author = {Gresa Shala and André Biedenkapp and Frank Hutter and Josif Grabocka},
@@ -7,6 +36,8 @@
     booktitle = {International Conference on Learning Representations (ICLR'23)},
     bibtex_show={true},
     openreview={rmoMvptXK7M},
+    code={https://github.com/releaunifreiburg/RCGP},
+    pdf={paper/23-ICLR-RCGP.pdf},
     abstract = {Despite having achieved spectacular milestones in an array of important real-world applications, most Reinforcement Learning (RL) methods are very brittle concerning their hyperparameters. Notwithstanding the crucial importance of setting the hyperparameters in training state-of-the-art agents, the task of hyperparameter optimization (HPO) in RL is understudied. In this paper, we propose a novel gray-box Bayesian Optimization technique for HPO in RL, that enriches Gaussian Processes with reward curve estimations based on generalized logistic functions. In a very large-scale experimental protocol, comprising 5 popular RL methods (DDPG, A2C, PPO, SAC, TD3), dozens of environments (Atari, Mujoco), and 7 HPO baselines, we demonstrate that our method significantly outperforms current HPO practices in RL.},
 }
 
