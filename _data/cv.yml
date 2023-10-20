@@ -65,10 +65,10 @@
   type: time_table
   contents:
     - title: AutoML Conference Online Experience Chair
-      year: 2023
-      institution: "<a href=\"https://2023.automl.cc/\">automl.cc</a>"
+      year: 2023 & 2024
+      institution: "<a href=\"https://2024.automl.cc/\">automl.cc</a>"
       description:
-        - "Jointly with Hayeon Lee, Mohammed Abdelfattah and Richard Song"
+        - "2023: Jointly with Hayeon Lee, Mohammed Abdelfattah and Richard Song"
     - title: COSEAL General Chair
       year: SEPT 2022 - NOW
       institution: "<a href=\"https://www.coseal.net/organisation/\">COSEAL.net</a>"
@@ -78,7 +78,7 @@
       institution: Machine Learning Lab, University of Freiburg
       year: 2017 - Now
 
-    - title: Student Assistance
+    - title: Student Assistant
       institution: Machine Learning Lab, University of Freiburg
       year: 2015 - 2017
       description:
@@ -94,6 +94,8 @@
 - title: Teaching Experience
   type: time_table
   contents:
+    - title: Foundations of Deep Learning (Flipped Classroom)
+      year: 2023
     - title: Lab Course Automated Machine Learning
       year: 2022
     - title: Seminar on Dynamic Algorithm Configuration and Optimization
@@ -128,7 +130,7 @@
   contents:
     - year: 2023
       description:
-        - ICML, AutoML Conference, NeurIPS, JAIR, EWRL
+        - JAAMAS, ICLR, ICML, AutoML Conference, NeurIPS, JAIR, EWRL
     - year: 2022
       description:
         - JAIR, TEVC, EWRL, NeurIPS, Journal of the ACM, AutoML Conference, ALOE@ICLR, Computational Intelligence Journal
