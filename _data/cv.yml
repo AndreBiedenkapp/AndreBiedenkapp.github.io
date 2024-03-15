@@ -22,6 +22,7 @@
       items:
         - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/paper/biedenkapp21a.pdf\">TempoRL: Learning When to Act</a>"
         - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/paper/eimer21a.pdf\">Self-Paced Context Evaluations for Contextual Reinforcement Learning</a>"
+        - "<a href=\"https://arxiv.org/pdf/2402.06402.pdf\">Hierarchical Transformers are Efficient Meta-Reinforcement Learners</a>"
     - title: Deep Reinforcement Learning
       items:
         - "<a href=\"https://andrebiedenkapp.github.io/assets/pdf/paper/zhang21n.pdf\">On the Importance of Hyperparameter Optimization for Model-based Reinforcement Learning</a>"
@@ -68,12 +69,13 @@
       year: 2023 & 2024
       institution: "<a href=\"https://2024.automl.cc/\">automl.cc</a>"
       description:
+        - "2024: Jointly with Gabi Kadlecová"
         - "2023: Jointly with Hayeon Lee, Mohammed Abdelfattah and Richard Song"
     - title: COSEAL General Chair
       year: SEPT 2022 - NOW
       institution: "<a href=\"https://www.coseal.net/organisation/\">COSEAL.net</a>"
       description:
-        - "Jointly with Alexander Tornede and Lennart Schäpermeier"
+        - "Jointly with Alexander Tornede (until 2023), Theresa Eimer (since 2024) and Lennart Schäpermeier"
     - title: Scientific Researcher
       institution: Machine Learning Lab, University of Freiburg
       year: 2017 - Now
@@ -128,9 +130,12 @@
 - title: Program Committee Membership
   type: time_table
   contents:
+    - year: 2024
+      description:
+        - ICLR, ICML, AutoML Conference, JAIR, ECAI
     - year: 2023
       description:
-        - JAAMAS, ICLR, ICML, AutoML Conference, NeurIPS, JAIR, EWRL
+        - JAAMAS, ICML, AutoML Conference, NeurIPS, JAIR, EWRL
     - year: 2022
       description:
         - JAIR, TEVC, EWRL, NeurIPS, Journal of the ACM, AutoML Conference, ALOE@ICLR, Computational Intelligence Journal
