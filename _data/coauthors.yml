@@ -12,7 +12,7 @@
 
 "Eimer":
   - firstname: ["Theresa", "T."]
-    url: https://www.tnt.uni-hannover.de/en/staff/eimer/
+    url: https://theeimer.github.io/
 
 "Doerr":
   - firstname: ["Carola", "C."]
@@ -24,8 +24,12 @@
 
 "Grabocka":
   - firstname: ["Josif", "J."]
-    url: https://relea.informatik.uni-freiburg.de/people/josif-grabocka
+    url: https://www.utn.de/en/departments/department-engineering/machine-learning-lab/
 
 "Shala":
   - firstname: ["Gresa", "G."]
     url: https://relea.informatik.uni-freiburg.de/people/gresa-shala
+
+"Rajan":
+  - firstname: ["Raghu", "R."]
+    url: https://ml.informatik.uni-freiburg.de/profile/rajan/
