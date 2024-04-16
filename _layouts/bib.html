@@ -30,7 +30,7 @@
 
           {%- for author in entry.author_array limit: author_array_limit -%}
             {%- assign author_is_self = false -%}
-            {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" -%}
+            {%- assign author_last_name = author.last | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "+" | remove: "^" -%}
             {%- if author_last_name == site.scholar.last_name -%}
               {%- if site.scholar.first_name contains author.first -%}
                 {%- assign author_is_self = true -%}
@@ -135,12 +135,17 @@
           {%- else -%}
             {%- capture entryjf -%}{%- endcapture -%}
           {%- endif -%}
+          {%- if entry.joint_last -%}
+            {%- capture entryjl -%}{{ " " }}<small><b>{{ '+Joint last authorship' }}</b></small>{%- endcapture -%}
+          {%- else -%}
+            {%- capture entryjl -%}{%- endcapture -%}
+          {%- endif -%}
           {%- if entry.award -%}
             {%- capture entryaward -%}{{ " " }}<small>🏅<span style="color: #F29105 !important">{{entry.award}}</span></small>{%- endcapture -%}
           {%- else -%}
             {%- capture entryaward -%}{%- endcapture -%}
           {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}{{ entryvolume }}{{ entrypages }}{{ entrymonth }}{{ entryyear }}{{ entryjf }}{{ entryaward }}<br />{{ entrynote }}{%- endcapture -%}
+          {%- capture periodical -%}{{ entrytype }}{{ entryvolume }}{{ entrypages }}{{ entrymonth }}{{ entryyear }}{{ entryjf }}{{ entryjl }}{{ entryaward }}<br />{{ entrynote }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
