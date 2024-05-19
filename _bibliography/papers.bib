@@ -1,6 +1,30 @@
 ---
 ---
 
+@inproceedings{prasanna-arxiv24a,
+title = "Dreaming of Many Worlds: Learning Contextual World Models Aids Zero-Shot Generalization",
+abstract = "Zero-shot generalization (ZSG) to unseen dynamics is a major challenge for creating generally capable embodied
+ agents. To address the broader challenge, we start with the simpler setting of contextual reinforcement learning (cRL),
+ assuming observability of the context values that parameterize the variation in the system’s dynamics, such as the mass
+ or dimensions of a robot, without making further simplifying assumptions about the observability of the Markovian state.
+ Toward the goal of ZSG to unseen variation in context, we propose the contextual recurrent state-space model (cRSSM),
+ which introduces changes to the world model of the Dreamer (v3) (Hafner et al., 2023). This allows the world model to
+ incorporate context for inferring latent Markovian states from the observations and modeling the latent dynamics. Our
+ experiments show that such systematic incorporation of the context improves the ZSG of the policies trained on the
+ “dreams” of the world model. We further find qualitatively that our approach allows Dreamer to disentangle the latent
+ state from context, allowing it to extrapolate its dreams to the many worlds of unseen contexts. The code for all our
+ experiments is available at https://github.com/sai-prasanna/dreaming_of_many_worlds.",
+author = "Sai Prasanna* and Karim Farid* and Raghu Rajan and André Biedenkapp",
+year = "2024",
+bibtex_show={true},
+arxiv = {arXiv:2403.10967},
+joint_first={true},
+code = {https://github.com/sai-prasanna/dreaming_of_many_worlds},
+booktitle = {Proceedings of the First Reinforcement Learning Conference (RLC'24)},
+note = {To appear},
+openreview = {o8DrRuBsQb}
+}
+
 @inproceedings{shala-automl24a,
     title = {HPO-RL-Bench: A Zero-Cost Benchmark for HPO in Reinforcement Learning},
     author = {Gresa Shala and Sebastian Pineda Arango and André Biedenkapp and Frank Hutter and Josif Grabocka},
@@ -39,28 +63,6 @@
   enabling adaptation to unseen environments and marks progress towards reinforcement learning systems that generalize
   across diverse real-world tasks. Our code and experiments are available at
   https://github.com/tidiane-camaret/contextual_rl_zero_shot",
-}
-
-@article{prasanna-arxiv24a,
-title = "Dreaming of Many Worlds: Learning Contextual World Models Aids Zero-Shot Generalization",
-abstract = "Zero-shot generalization (ZSG) to unseen dynamics is a major challenge for creating generally capable embodied
- agents. To address the broader challenge, we start with the simpler setting of contextual reinforcement learning (cRL),
- assuming observability of the context values that parameterize the variation in the system’s dynamics, such as the mass
- or dimensions of a robot, without making further simplifying assumptions about the observability of the Markovian state.
- Toward the goal of ZSG to unseen variation in context, we propose the contextual recurrent state-space model (cRSSM),
- which introduces changes to the world model of the Dreamer (v3) (Hafner et al., 2023). This allows the world model to
- incorporate context for inferring latent Markovian states from the observations and modeling the latent dynamics. Our
- experiments show that such systematic incorporation of the context improves the ZSG of the policies trained on the
- “dreams” of the world model. We further find qualitatively that our approach allows Dreamer to disentangle the latent
- state from context, allowing it to extrapolate its dreams to the many worlds of unseen contexts. The code for all our
- experiments is available at https://github.com/sai-prasanna/dreaming_of_many_worlds.",
-author = "Sai Prasanna* and Karim Farid* and Raghu Rajan and André Biedenkapp",
-year = "2024",
-bibtex_show={true},
-journal = {arXiv:2403.10967},
-arxiv = {arXiv:2403.10967},
-joint_first={true},
-code = {https://github.com/sai-prasanna/dreaming_of_many_worlds},
 }
 
 @article{shala-arxiv24a,
