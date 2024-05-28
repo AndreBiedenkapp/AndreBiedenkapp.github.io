@@ -48,7 +48,7 @@
       year: July 2019
     - title: Master of Science - Computer Science
       institution: University of Freiburg, Germany
-      year: 2014 - 2017
+      year: 2015 - 2017
       description:
         - "Thesis: <a href=\"https://ml.informatik.uni-freiburg.de/wp-content/uploads/2024/01/2017_PIAC_Biedenkapp.pdf\">Per Instance Algorithm Configuration</a>"
         - "Supervisor: Dr. Marius Lindauer"
@@ -56,7 +56,7 @@
         - "Second Examiner: Prof. Dr. Bernhard Nebel"
     - title: Bachelor of Science - Computer Science
       institution: University of Freiburg, Germany
-      year: 2011 - 2014
+      year: 2011 - 2015
       description:
         - "Thesis: Data Analysis for the Selection of Recording Channels on Multielectrode-Arrays"
         - "Supervisor: Prof. Dr. Wolfram Burgard"
