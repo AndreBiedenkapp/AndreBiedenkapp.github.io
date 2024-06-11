@@ -1,7 +1,7 @@
 ---
 layout: post
 title: AutoML School Tutorial "AutoRL with Applications to Sustainability"
-date: 2024-05-15 10:00:00+0200
+date: 2024-06-07 10:00:00+0200
 inline: True
 ---
 
