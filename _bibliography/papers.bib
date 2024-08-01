@@ -1,6 +1,27 @@
 ---
 ---
 
+@inproceedings{ndir-ewrl24a,
+  title = {Inferring Behavior-Specific Context Improves Zero-Shot Generalization in Reinforcement Learning},
+  author = {Tidiane Camaret Ndir and André Biedenkapp and Noor Awad},
+  year = {2024},
+  arxiv = {arXiv:2404.09521},
+  bibtex_show={true},
+  code = {https://github.com/tidiane-camaret/contextual_rl_zero_shot},
+  booktitle={Seventeenth European Workshop on Reinforcement Learning},
+  openreview={51XSWH0mgN},
+  note = {To appear},
+  abstract = "In this work, we address the challenge of zero-shot generalization (ZSG) in Reinforcement Learning (RL),
+  where agents must adapt to entirely novel environments without additional training. We argue that understanding and
+  utilizing contextual cues, such as the gravity level of the environment, is critical for robust generalization, and we
+  propose to integrate the learning of context representations directly with policy learning. Our algorithm demonstrates
+  improved generalization on various simulated domains, outperforming prior context-learning techniques in zero-shot
+  settings. By jointly learning policy and context, our method acquires behavior-specific context representations,
+  enabling adaptation to unseen environments and marks progress towards reinforcement learning systems that generalize
+  across diverse real-world tasks. Our code and experiments are available at
+  https://github.com/tidiane-camaret/contextual_rl_zero_shot",
+}
+
 @inproceedings{bordne-automlws24a,
 title = "CANDID DAC: Leveraging Coupled Action Dimensions with Importance Differences in DAC",
 abstract = "High-dimensional action spaces remain a challenge for dynamic algorithm configuration (DAC).
@@ -49,7 +70,7 @@ volume={1},
 issue={1},
 year={2024},
 website = {https://rlj.cs.umass.edu/2024/papers/Paper167.html},
-note = {To appear},
+note = {To appear and also be presented at the Seventeenth European Workshop on Reinforcement Learning (EWRL 2024)},
 openreview = {o8DrRuBsQb},
 pdf = {paper/24_rlc_dreaming_of_many_worlds.pdf},
 selected = {true}
@@ -74,25 +95,6 @@ selected = {true}
     methods. In addition, the benchmark offers a set of integrated HPO methods, enabling plug-and-play tuning of the
     hyperparameters of new RL algorithms, while pre-computed evaluations allow a zero-cost comparison of a new RL
     algorithm against the tuned RL baselines in our benchmark.}
-}
-
-@article{ndir-arxiv24a,
-  title = {Inferring Behavior-Specific Context Improves Zero-Shot Generalization in Reinforcement Learning},
-  author = {Tidiane Camaret Ndir and André Biedenkapp and Noor Awad},
-  year = {2024},
-  journal = {arXiv:2404.09521},
-  arxiv = {arXiv:2404.09521},
-  bibtex_show={true},
-  code = {https://github.com/tidiane-camaret/contextual_rl_zero_shot},
-  abstract = "In this work, we address the challenge of zero-shot generalization (ZSG) in Reinforcement Learning (RL),
-  where agents must adapt to entirely novel environments without additional training. We argue that understanding and
-  utilizing contextual cues, such as the gravity level of the environment, is critical for robust generalization, and we
-  propose to integrate the learning of context representations directly with policy learning. Our algorithm demonstrates
-  improved generalization on various simulated domains, outperforming prior context-learning techniques in zero-shot
-  settings. By jointly learning policy and context, our method acquires behavior-specific context representations,
-  enabling adaptation to unseen environments and marks progress towards reinforcement learning systems that generalize
-  across diverse real-world tasks. Our code and experiments are available at
-  https://github.com/tidiane-camaret/contextual_rl_zero_shot",
 }
 
 @article{shala-arxiv24a,
