@@ -66,9 +66,10 @@
   type: time_table
   contents:
     - title: AutoML Conference Online Experience Chair
-      year: 2023 & 2024
+      year: 2023, 2024 & 2025
       institution: "<a href=\"https://2024.automl.cc/\">automl.cc</a>"
       description:
+        - "2025: Jointly with Gabi Kadlecová and Dawid Pludowski"
         - "2024: Jointly with Gabi Kadlecová"
         - "2023: Jointly with Hayeon Lee, Mohammed Abdelfattah and Richard Song"
     - title: COSEAL General Chair
@@ -96,6 +97,12 @@
 - title: Teaching Experience
   type: time_table
   contents:
+    - title: Automated Machine Learning (Flipped Classroom)
+      year: 2025
+      description:
+        - Lecturer
+    - title: Seminar on Automated Reinforcement Learning
+      year: 2024
     - title: Foundations of Deep Learning (Flipped Classroom)
       year: 2023
     - title: Lab Course Automated Machine Learning
@@ -108,7 +115,7 @@
         - Creation of coding exercises. Involved in setting up the MOOC
 
     - title: Automated Machine Learning (Flipped Classroom)
-      year: 2020 - Now
+      year: 2020 - 2023
       description:
         - Creation and grading of exercises & final project. Setting up online teaching through Zoom and GitHub classroom.
 
@@ -130,9 +137,12 @@
 - title: Program Committee Membership
   type: time_table
   contents:
+    - year: 2025
+      description:
+        - ICLR, ICML, AutoML Conference, RLC, NeurIPS
     - year: 2024
       description:
-        - ICLR, ICML, AutoML Conference, JAIR, ECAI
+        - ICLR, ICML, AutoML Conference, JAIR, MLJ
     - year: 2023
       description:
         - JAAMAS, ICML, AutoML Conference, NeurIPS, JAIR, EWRL
