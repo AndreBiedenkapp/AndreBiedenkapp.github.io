@@ -1,16 +1,16 @@
 ---
 ---
 @article{hog-tmlr25a,
-title={Meta-learning Population-based Methods for Reinforcement Learning},
-author={Johannes Hog and Raghu Rajan and André Biedenkapp and Noor Awad and Frank Hutter and Vu Nguyen},
-journal = "Transactions on Machine Learning Research",
-issn = "2835-8856",
-openreview={d9htascfP8},
-bibtex_show={true},
-year={2025},
-abstract="Reinforcement learning (RL) algorithms are highly sensitive to their hyperparameter settings. Recently, numerous methods have been proposed to dynamically optimize these hyperparameters. One prominent approach is Population-Based Bandits (PB2), which uses time-varying Gaussian processes (GP) to dynamically optimize hyperparameters with a population of parallel agents. Despite its strong overall performance, PB2 experiences slow starts due to the GP initially lacking sufficient information. To mitigate this issue, we propose four different methods that utilize meta-data from various environments. These approaches are novel in that they adapt meta-learning methods to accommodate the time-varying setting. Among these approaches, MultiTaskPB2, which uses meta-learning for the surrogate model, stands out as the most promising approach. It outperforms PB2 and other baselines in both anytime and final performance across two RL environment families.",
-code={https://github.com/automl/MetaPB2},
-pdf={paper/TMLR-MetaPB2-2025.pdf}
+    title={Meta-learning Population-based Methods for Reinforcement Learning},
+    author={Johannes Hog and Raghu Rajan and André Biedenkapp and Noor Awad and Frank Hutter and Vu Nguyen},
+    journal = "Transactions on Machine Learning Research",
+    issn = "2835-8856",
+    openreview={d9htascfP8},
+    bibtex_show={true},
+    year={2025},
+    abstract="Reinforcement learning (RL) algorithms are highly sensitive to their hyperparameter settings. Recently, numerous methods have been proposed to dynamically optimize these hyperparameters. One prominent approach is Population-Based Bandits (PB2), which uses time-varying Gaussian processes (GP) to dynamically optimize hyperparameters with a population of parallel agents. Despite its strong overall performance, PB2 experiences slow starts due to the GP initially lacking sufficient information. To mitigate this issue, we propose four different methods that utilize meta-data from various environments. These approaches are novel in that they adapt meta-learning methods to accommodate the time-varying setting. Among these approaches, MultiTaskPB2, which uses meta-learning for the surrogate model, stands out as the most promising approach. It outperforms PB2 and other baselines in both anytime and final performance across two RL environment families.",
+    code={https://github.com/automl/MetaPB2},
+    pdf={paper/TMLR-MetaPB2-2025.pdf}
 }
 
 @inproceedings{nguyen-gecco25a,
@@ -19,8 +19,9 @@ pdf={paper/TMLR-MetaPB2-2025.pdf}
   bibtex_show={true},
   abstract = "Dynamic Algorithm Configuration (DAC) has garnered significant attention in recent years, particularly in the prevalence of machine learning and deep learning algorithms. Numerous studies have leveraged the robustness of decision-making in Reinforcement Learning (RL) to address the optimization challenges associated with algorithm configuration. However, making an RL agent work properly is a non-trivial task, especially in reward design, which necessitates a substantial amount of handcrafted knowledge based on domain expertise. In this work, we study the importance of reward design in the context of DAC via a case study on controlling the population size of the (1+(λ,λ))-GA optimizing OneMax. We observed that a poorly designed reward can hinder the RL agent's ability to learn an optimal policy because of a lack of exploration, leading to both scalability and learning divergence issues. To address those challenges, we propose the application of a reward shaping mechanism to facilitate enhanced exploration of the environment by the RL agent. Our work not only demonstrates the ability of RL in dynamically configuring the (1+(λ,λ))-GA, but also confirms the advantages of reward shaping in the scalability of RL agents across various sizes of OneMax problems.",
   year = {2025},
-  booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference ({GECCO}'22)},
-  arxiv = {arXiv:2502.20265}
+  booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference ({GECCO}'25)},
+  arxiv = {arXiv:2502.20265},
+  code = {https://github.com/taindp98/OneMax-DAC}
 },
 
 
@@ -40,7 +41,8 @@ pdf={paper/TMLR-MetaPB2-2025.pdf}
    the state-of-the-art. Our approach enhances the agent's ability to generalize from limited data and paves the
    way for more robust and versatile AI systems.",
   openreview={UENQuayzr1},
-  pdf = {paper/2025_ECTMRL_ICLR.pdf}
+  pdf = {paper/2025_ECTMRL_ICLR.pdf},
+  code = {https://github.com/machinelearningnuremberg/ECET}
 },
 
 @inproceedings{ndir-ewrl24a,
