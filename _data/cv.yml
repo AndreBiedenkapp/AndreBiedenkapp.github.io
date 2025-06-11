@@ -165,12 +165,15 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2025
+      items:
+        - "<a href=\"https://gecco-2025.sigevo.org/Best-Paper-Nominations\">Nomination for a Best Paper Award at GECCO'25 (L4EC track)</a>"
     - year: 2024
       items:
         - "<a href=\"https://2024.automl.cc/?page_id=1406\">Runner Up for the Best Paper Award at AutoML'24</a>"
     - year: 2022
       items:
-        - "<a href=\"https://gecco-2022.sigevo.org/Best-Paper-Nominations\">Won the Best Paper Award at GECCO'22 (GECH track)</a>"
+        - "<a href=\"https://gecco-2022.sigevo.org/Best-Paper-Awards.html#GECH_Track\">Won the Best Paper Award at GECCO'22 (GECH track)</a>"
     - year: 2021
       items:
         - "<a href=\"https://icml.cc/Conferences/2021/Reviewers\">Best Reviewers Award (Top 10%) ICML'21</a>"
