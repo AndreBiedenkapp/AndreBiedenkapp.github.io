@@ -1,6 +1,29 @@
 ---
 ---
 
+
+@inproceedings{prasanna-ewrl25a,
+  title = {One Does Not Simply Estimate State: Comparing Model-based and Model-free Reinforcement Learning on the Partially Observable MordorHike Benchmark},
+  author = {Sai Prasanna and André Biedenkapp+ and Raghu Rajan+},
+  year = {2025},
+  booktitle={Eighteenth European Workshop on Reinforcement Learning},
+  openreview={lTyiOJwQqu},
+  joint_last = {true},
+  bibtex_show={true},
+  abstract="Evaluating reinforcement learning agents on partially observable Markov decision processes remains lacking as common benchmarks often do not require complex state estimation under non-linear dynamics and noise. We introduce MordorHike, a benchmark suite for rigorous state estimation testing, revealing performance gaps which would not be possible on other benchmarks. We present an evaluation framework assessing task performance and state estimation quality via probing. Using this framework, we empirically compare model-based (Dreamer, R2I) and model-free (DRQN) agents for sophisticated state estimation. The analysis reveals that Dreamer excels in sample efficiency and achieves superior performance in the hardest setting while R2I underperforms, suggesting its linear recurrent architecture may be a bottleneck. Further analysis reveals links between state estimation quality and task performance. Finally, out-of-distribution analysis shows a generalization gap for all algorithms, although Dreamer maintains an edge in the most challenging setting. The results highlight the need for robust state estimation and the need for proper evaluation benchmarks while validating the usefulness of MordorHike for future POMDP research."
+}
+
+@inproceedings{mohan-ewrl25a,
+  title = {Mighty: A Comprehensive Tool for studying Generalization, Meta-RL and AutoRL},
+  author = {A. Mohan and T. Eimer and C. Benjamins and M. Lindauer and A. Biedenkapp},
+  year = {2025},
+  booktitle={Eighteenth European Workshop on Reinforcement Learning},
+  bibtex_show={true},
+  openreview={QlDXH5NkUx},
+  abstract="Robust generalization, rapid adaptation, and automated tuning are essential for deploying reinforcement learning in real-world settings. However, research on these aspects remains scattered across non-standard codebases and custom orchestration scripts. We introduce Mighty, an open-source library that unifies Contextual Generalization, Meta-RL, and AutoRL under a single modular interface. Mighty cleanly separates a configurable Agent - specified by its learning algorithm, model architecture, replay buffer, exploration strategy, and hyperparameters - from a configurable environment modeled as a Contextual MDP in which transitions, rewards, and initial states are governed by context parameters. This design decouples inner‐loop weight updates from outer‐loop adaptations, enabling users to compose, within one framework, (i) contextual generalization and curriculum methods (e.g.\ Unsupervised Environment Design), (ii) bi‐level meta‐learning (e.g.\ MAML, black‐box strategies), and (iii) automated hyperparameter and architecture search (e.g.\ Bayesian optimization, evolutionary strategies, population‐based training). We present Mighty’s design philosophy and core features and validate the ongoing base implementations on classic control and continuous control tasks. We hope that by providing a unified, modular interface, Mighty will simplify experimentation and inspire further advances in robust, adaptable reinforcement learning.",
+code = {https://github.com/automl/Mighty}}
+
+
 @inproceedings{nguyen-gecco25a,
   title = {On the Importance of Reward Design in Reinforcement Learning-based Dynamic Algorithm Configuration: A Case Study on OneMax with (1+(λ,λ))-GA},
   author = {Tài Nguyen and Phong Le and André Biedenkapp and Carola Doerr and Nguyen Dang},
