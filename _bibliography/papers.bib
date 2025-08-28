@@ -15,13 +15,16 @@
 
 @inproceedings{mohan-ewrl25a,
   title = {Mighty: A Comprehensive Tool for studying Generalization, Meta-RL and AutoRL},
-  author = {A. Mohan and T. Eimer and C. Benjamins and M. Lindauer and A. Biedenkapp},
+  author = {Aditya Mohan* and Theresa Eimer* and Carolin Benjamins and Marius Lindauer and André Biedenkapp},
   year = {2025},
   booktitle={Eighteenth European Workshop on Reinforcement Learning},
   bibtex_show={true},
   openreview={QlDXH5NkUx},
   abstract="Robust generalization, rapid adaptation, and automated tuning are essential for deploying reinforcement learning in real-world settings. However, research on these aspects remains scattered across non-standard codebases and custom orchestration scripts. We introduce Mighty, an open-source library that unifies Contextual Generalization, Meta-RL, and AutoRL under a single modular interface. Mighty cleanly separates a configurable Agent - specified by its learning algorithm, model architecture, replay buffer, exploration strategy, and hyperparameters - from a configurable environment modeled as a Contextual MDP in which transitions, rewards, and initial states are governed by context parameters. This design decouples inner‐loop weight updates from outer‐loop adaptations, enabling users to compose, within one framework, (i) contextual generalization and curriculum methods (e.g.\ Unsupervised Environment Design), (ii) bi‐level meta‐learning (e.g.\ MAML, black‐box strategies), and (iii) automated hyperparameter and architecture search (e.g.\ Bayesian optimization, evolutionary strategies, population‐based training). We present Mighty’s design philosophy and core features and validate the ongoing base implementations on classic control and continuous control tasks. We hope that by providing a unified, modular interface, Mighty will simplify experimentation and inspire further advances in robust, adaptable reinforcement learning.",
-code = {https://github.com/automl/Mighty}}
+code = {https://github.com/automl/Mighty},
+pdf = {paper/25_ewrl_mighty.pdf},
+joint_first={true}
+}
 
 
 @inproceedings{nguyen-gecco25a,
