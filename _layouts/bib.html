@@ -220,7 +220,7 @@
           {% if entry.bibtex_show -%}
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
-            {% highlight bibtex %}{{ entry.bibtex  | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" | hideCustomBibtex }}{% endhighlight %}
+            {% highlight bibtex %}{{ entry.bibtex  | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" | remove: "+" | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
         </div>
