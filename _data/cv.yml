@@ -137,9 +137,12 @@
 - title: Program Committee Membership
   type: time_table
   contents:
+    - year: 2026
+      description:
+        - ICLR, ICML
     - year: 2025
       description:
-        - ICLR, ICML, AutoML Conference, RLC, NeurIPS
+        - ICLR, ICML, AutoML Conference, RLC, NeurIPS, EWRL
     - year: 2024
       description:
         - ICLR, ICML, AutoML Conference, JAIR, MLJ
