@@ -3,34 +3,6 @@ layout: default
 ---
 
 <!-- about.html -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var ref = document.referrer;
-
-    // Check if the user came from heise.de (where c't articles are hosted online)
-    // You can add other likely domains if necessary
-    if (ref && (ref.includes('heise.de') || ref.includes('ct.de'))) {
-
-        // Create a banner element
-        var banner = document.createElement('div');
-        banner.style.position = 'fixed';
-        banner.style.top = '0';
-        banner.style.left = '0';
-        banner.style.width = '100%';
-        banner.style.backgroundColor = '#ff6600'; // c't orange-ish color
-        banner.style.color = 'white';
-        banner.style.textAlign = 'center';
-        banner.style.padding = '15px';
-        banner.style.zIndex = '1000';
-        banner.style.fontFamily = 'Arial, sans-serif';
-
-        // Add text and link
-        banner.innerHTML = 'Welcome c\'t readers! Looking for the TempoRL Demo? <a href="/blog/2022/temporl" style="color: white; font-weight: bold; text-decoration: underline;">Click here to view it.</a> <span style="cursor:pointer; float:right; margin-right:20px;" onclick="this.parentElement.style.display=\'none\'">✖</span>';
-
-        document.body.prepend(banner);
-    }
-  });
-</script>
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
@@ -67,6 +39,16 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
+
+          <hr>
+
+          <div >
+                <p style="font-size: 1.2em;">Looking for the TempoRL Demo as seen in <strong>c't magazine</strong>?</p>
+                <a href="/blog/2022/temporl/" style="background-color: #ff6600; color: white; padding: 15px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; font-size: 1.2em; display: inline-block; margin-top: 10px;">
+                    Launch Demo Now &rarr;
+                </a>
+            </div>
+
           <hr>
 
           {% if page.news -%}
