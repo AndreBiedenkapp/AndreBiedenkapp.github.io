@@ -224,7 +224,10 @@
           {% if entry.bibtex_show -%}
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
-            {% highlight bibtex %}{{ entry.bibtex  | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" | remove: "+" | hideCustomBibtex }}{% endhighlight %}
+              {%- capture bibtex_formatted -%}
+                {{ entry.bibtex | format_bibtex_with_track: entry.specialtrack | hideCustomBibtex }}
+              {%- endcapture -%}
+            {% highlight bibtex %}{{ bibtex_formatted  | remove: "¶" | remove: "&" | remove: "*" | remove: "†" | remove: "^" | remove: "+" }}{% endhighlight %}
           </div>
           {%- endif %}
         </div>
