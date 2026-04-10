@@ -31,7 +31,7 @@ reliance on highly precise, expensive simulators and make RL-based systems vastl
 scenarios.
 
 My research has been recognized
-with best paper awards at GECCO and AutoML, and my work on Dynamic Algorithm Configuration has pioneered new approaches
+with best paper awards at GECCO and AutoML, and my work on [Dynamic Algorithm Configuration](https://ml.informatik.uni-freiburg.de/wp-content/uploads/2022/11/2022_Dissertation_Andre_Biedenkapp.pdf) has pioneered new approaches
 for adaptive algorithmic systems.
 
 <div class="affiliations-adaptive-container">
