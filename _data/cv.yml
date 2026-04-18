@@ -168,6 +168,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2026
+      items:
+        - "Top 200 Revier @ ICLR'26"
     - year: 2025
       items:
         - "<a href=\"https://gecco-2025.sigevo.org/Best-Paper-Nominations\">Best Paper Award at GECCO'25 (L4EC track)</a>"
