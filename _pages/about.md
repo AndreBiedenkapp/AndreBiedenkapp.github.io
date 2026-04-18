@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 I lead the [Reinforcement Learning subgroup](https://ml.informatik.uni-freiburg.de/focus-groups/reinforcement-learning/)
 at the University of Freiburg's Machine Learning Lab, and am thrilled to soon be starting as an independent [Emmy Noether
-Research Group Leader](https://www.kit.edu/kit/pi_2026_031_von-spezialisierten-zu-anpassungsfaehigen-ki-systemen.php) at
+Research Group Leader](https://www.kit.edu/kit/english/pi_2026_031_from-specialized-to-adaptable-ai-systems.php) at
 the [Karlsruhe Insitute of Technology (KIT)](https://www.kit.edu/) in September 2026.
 
 My research focuses on developing reinforcement learning algorithms that create highly adaptable, generalist policies.
