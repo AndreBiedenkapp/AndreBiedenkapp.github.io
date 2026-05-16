@@ -139,7 +139,7 @@
   contents:
     - year: 2026
       description:
-        - ICLR, ICML
+        - ICLR, ICML, NeurIPS, AutoML Conference, EWRL, AutoRL@RLC
     - year: 2025
       description:
         - ICLR, ICML, AutoML Conference, RLC, NeurIPS, EWRL
@@ -171,6 +171,7 @@
     - year: 2026
       items:
         - "Top 200 Revier @ ICLR'26"
+        - "Gold Revier @ ICML'26"
     - year: 2025
       items:
         - "<a href=\"https://gecco-2025.sigevo.org/Best-Paper-Nominations\">Best Paper Award at GECCO'25 (L4EC track)</a>"
