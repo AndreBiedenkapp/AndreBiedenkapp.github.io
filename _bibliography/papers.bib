@@ -1,6 +1,24 @@
 ---
 ---
 
+@inproceedings{bordne-ewrl26a,
+  title = {Towards Understanding the Impact of Plasticity Loss on Reinforcement Learning in Stochastic Environments},
+  author = {Philipp Bordne and André Biedenkapp},
+  year = {2026},
+  booktitle={Nienteenth European Workshop on Reinforcement Learning},
+  bibtex_show={true},
+  abstract="Deep reinforcement learning (RL) is a powerful framework for sequential decision making. Despite many high-profile successes in recent years, deep RL is known to be brittle. An emerging research direction into the causes of this brittleness concerns the loss of plasticity of neural networks. However, plasticity loss has so far been understudied in stochastic environments. Our study addresses this issue and provides a principled analysis of the interplay of noise and plasticity loss. We find that plasticity-preserving methods increase learning robustness in stochastic environments, with their advantage growing under higher observation noise, while combining resets with layer normalization is more often detrimental than beneficial. Further, stochasticity can accelerate the loss of plasticity in harder environments, whereas in easier settings noise can act as a regularizer that sustains plasticity. Lastly, our study shows that plasticity loss is most pronounced in early stages of training, and that in the most challenging stochastic settings TD instability emerges as a more critical failure mode which is more likely to be triggered by the presence of noise."
+}
+
+@inproceedings{benathabotla-ewrl26a,
+  title = {Reinforcement Learning with Complex (valued) Memories},
+  author = {Sathya Kamesh Bhethanabhotla and Stratis Gavves and André Biedenkapp},
+  year = {2026},
+  booktitle={Nienteenth European Workshop on Reinforcement Learning},
+  bibtex_show={true},
+  abstract="Partially observable environments pose a fundamental challenge in deep reinforcement learning, requiring agents to compress temporal information from observations and maintain a memory to make effective decisions. While there exist many approaches ranging from gated recurrence to attention mechanisms and model-based RL, the search for effective representational techniques that can capture long-term dependencies remains an active area of research. In this work we revisit Unitary recurrent networks (uRNNs) [Arjovsky et al., 2016, Jing et al., 2017], that demonstrated superior gradient flow and associative recall, expressing the recurrence and the hidden state in a complex vector space. Their norm preserving unitary dynamics enable information propagation through long sequences. To this end, we propose three different versions of uRNNs as drop-in replacements for recurrent PPO architectures, and demonstrate that the simple recurrence and the added degree of freedom from the phase of the complex representations enable significant gains over baselines on several memory-improvable tasks, including continuous control. We further explore how to preserve the phase information of the complex hidden state for a \textit{phase-aware} policy by drawing a parallel to how quantum states are measured. With our methods reaching up to 2-3x the reward in environments like rocksample and Craftax compared to the baselines, this work points towards an exciting new direction of representations for RL and the problem of partial observability."
+}
+
 @article{nguyen-telo26a,
   title = {Deep Reinforcement Learning for Dynamic Algorithm Configuration: A Case Study on Optimizing OneMax with the (1+(λ,λ))-GA},
   author = {Tài Nguyen and Phong Le and André Biedenkapp and Carola Doerr and Nguyen Dang},
