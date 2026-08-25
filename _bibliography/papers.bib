@@ -1,5 +1,18 @@
 ---
 ---
+@inproceedings{tirumanyam-gcprextab26a,
+  author    = {Rachana Tirumanyam and André Biedenkapp and Jovita Lukasik},
+  title     = {Compressing Deep Reinforcement Learning via
+Evolving Target Sparsity},
+  booktitle = {48th DAGM German Conference on Pattern Recognition (GCPR) -- Extended Abstract Track},
+  year      = {2026},
+  address   = {Siegen, Germany},
+  bibtex_show={true},
+  note         = {Non-archival extended abstract},
+  pdf          = {paper/26-gcpr-abstract.pdf},
+  abstract={Deep Reinforcement Learning (DRL) models are heavily over-parameterized, hindering edge deployment. Analyzing neural redundancy across Atari and MuJoCo reveals a stark divide: while discrete policies withstand 95\% static sparsity, continuous tasks suffer catastrophic collapse. To achieve stable extreme compression, we propose Population-Based Dynamic Sparse Training (PBT-DST). By treating target sparsity as an evolving hyperparameter, PBT-DST uses an exploit-and-mutate loop to decouple topology search from non-stationary RL gradients. Benchmarked against static post-hoc compression and Gradual Magnitude Pruning (GMP), PBT-DST eliminates the need for predetermined sparsity targets. Instead, it autonomously evolves the network to its optimal task-specific sparsity, successfully rescuing continuous tasks from static failure while maintaining stable performance.}
+}
+
 @article{mraz-arxiv26a,
 title = {Dynamic Context Scheduling: Learning Beyond the Static Universe},
 author = {Martin Mráz and André Biedenkapp},
