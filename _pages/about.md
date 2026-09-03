@@ -2,31 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://ml.informatik.uni-freiburg.de/focus-groups/reinforcement-learning/'>RL Subgroup Leader</a> | <a href='https://ml.informatik.uni-freiburg.de/'>Machine Learning Lab</a> | <a href='https://uni-freiburg.de/'>University of Freiburg</a>
+subtitle: Emmy Noether Group Lead at the Karlsruhe Institute of Technology (KIT)
 
 profile:
   align: right
   image: andre_defense_headshot.png
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Room 00-018</p>
-    <p>Georges-Köhler-Allee 74</p>
-    <p>79110 Freiburg, Germany</p>
-    <p style="margin: 10px 0 0 0; font-size: 75% !important">My 3 word address: <a href='https://what3words.com/forecast.gamer.showcase'>///forecast.gamer.showcase</a></p>
+    <p>Building 40.28, Room 111</p>
+    <p>Engler-Bunte-Ring 8</p>
+    <p>76131 Karlsruhe, Germany</p>
+    <p style="margin: 10px 0 0 0; font-size: 75% !important">My 3 word address: <a href='https://what3words.com/unveils.cookers.voting'>///unveils.cookers.voting</a></p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I lead the [Reinforcement Learning subgroup](https://ml.informatik.uni-freiburg.de/focus-groups/reinforcement-learning/)
-at the University of Freiburg's Machine Learning Lab, and am thrilled to soon be starting as an independent [Emmy Noether
-Research Group Leader](https://www.kit.edu/kit/english/pi_2026_031_from-specialized-to-adaptable-ai-systems.php) at
-the [Karlsruhe Insitute of Technology (KIT)](https://www.kit.edu/) in September 2026.
-
 My research focuses on developing reinforcement learning algorithms that create highly adaptable, generalist policies.
 Supported by my [DFG Emmy Noether grant](https://www.dfg.de/de/aktuelles/neuigkeiten-themen/pressemitteilungen/2026/pressemitteilung-nr-10)
-my research group at KIT will focus leveraging contextual information during training. Ultimately, I aim to reduce the
+my research group at KIT leverages contextual information during training to learn general policies. Ultimately, I aim to reduce the
 reliance on highly precise, expensive simulators and make RL-based systems vastly more applicable to complex, real-world
 scenarios.
 

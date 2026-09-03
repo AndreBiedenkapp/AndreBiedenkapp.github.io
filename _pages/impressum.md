@@ -13,15 +13,14 @@ nav_order: 9
 
 Dr. André Biedenkapp
 
-Technische Fakultät<BR>
-Albert-Ludwigs-Universität<BR>
-Professur für Maschinelles Lernen<BR>
-Georges Köhler Allee, Gebäude 74<BR>
-79110 Freiburg im Breisgau<BR>
+Karlsruhe Institute of Technology (KIT)<BR>
+Institut für Anthropomatik und Robotik (IAR)<BR>
+Engler-Bunte-Ring 8, Gebäude 40.28<BR>
+76131 Karlsruhe<BR>
 Deutschland<BR>
 
 <h2>Mail</h2>
-biedenka(at)cs.uni-freiburg.de
+biedenka(at)kit.edu
 
 <h2>Disclaimer</h2>
 Im flogenden wird auf die gesetzlichen Bestimmungen hingewiesen, die für die Erstellung und Pflege dieser Webseiten gelten. Der Betreiber der Website ist André Biedenkapp (siehe "Publisher") und wird im Folgenden als "Publisher" bezeichnet.

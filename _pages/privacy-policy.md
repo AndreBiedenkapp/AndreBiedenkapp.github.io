@@ -7,7 +7,7 @@ nav: false
 nav_order: 9
 ---
 
-<p>Last updated: March 27, 2023</p>
+<p>Last updated: September 3rd, 2026</p>
 <h2>TL;DR</h2>
 * The website does not use any cookies.
 * The website does not use any tracking or analytics tools.
@@ -23,14 +23,13 @@ The party responsible for this website (the "controller") for purposes of data p
 
 Dr. André Biedenkapp
 
-Technische Fakultät<BR>
-Albert-Ludwigs-Universität<BR>
-Professur für Maschinelles Lernen<BR>
-Georges Köhler Allee, Gebäude 74<BR>
-79110 Freiburg im Breisgau<BR>
+Karlsruhe Institute of Technology (KIT)<BR>
+Institut für Anthropomatik und Robotik (IAR)<BR>
+Engler-Bunte-Ring 8, Gebäude 40.28<BR>
+76131 Karlsruhe<BR>
 Deutschland<BR>
 
-Email: biedenka(at)cs.uni-freiburg.de
+Email: biedenka(at)kit.edu
 
 <h2>What we collect</h2>
 We do not collect any information about you when you visit our website.
