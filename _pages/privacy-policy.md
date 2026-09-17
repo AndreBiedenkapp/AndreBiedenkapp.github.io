@@ -7,11 +7,12 @@ nav: false
 nav_order: 9
 ---
 
-<p>Last updated: September 3rd, 2026</p>
+<p>Last updated: September 17th, 2026</p>
 <h2>TL;DR</h2>
 * The website does not use any cookies.
 * The website does not use any tracking or analytics tools.
 * The website is hosted by GitHub
+* Some fonts and JavaScript/CSS libraries are loaded directly from Google Fonts and jsDelivr, which can see your IP address
 
 <h2>Introduction</h2>
 This policy describes how the website <a href='https://andre-biedenkapp.github.io/'>https://andre-biedenkapp.github.io/</a> (the "Website") uses and protects any information that you give the Website when you use it.
@@ -32,8 +33,16 @@ Deutschland<BR>
 Email: biedenka(at)kit.edu
 
 <h2>What we collect</h2>
-We do not collect any information about you when you visit our website.
+We ourselves do not collect any information about you when you visit our website: we run no first-party analytics, tracking scripts, or contact forms.
 As a consequence, we do not offer a cookie banner or any other means to opt-out of cookies.
+
+<h2>Fonts and other third-party resources</h2>
+To display text, icons, and page functionality, this website loads some resources directly from third-party content delivery networks rather than from our own server:
+<ul>
+<li>Web fonts from Google Fonts (fonts.googleapis.com / fonts.gstatic.com)</li>
+<li>JavaScript/CSS libraries (e.g. Bootstrap, jQuery, MathJax, medium-zoom, Font Awesome, academicons, imagesLoaded, Masonry) from jsDelivr (cdn.jsdelivr.net)</li>
+</ul>
+When your browser loads these resources, it connects directly to Google's and jsDelivr's servers, which can see your IP address and that you visited this site. We have no control over, and no access to, any data these providers may process. See <a href='https://policies.google.com/privacy'>Google's Privacy Policy</a> and <a href='https://www.jsdelivr.com/privacy-policy-jsdelivr-net'>jsDelivr's Privacy Policy</a> for details.
 
 <h2>How can I verify that the website does not use cookies?</h2>
 You can visit <a href='https://www.cookieyes.com/blog/how-to-check-cookies-on-your-website-manually/'>https://www.cookieyes.com/blog/how-to-check-cookies-on-your-website-manually/</a> to learn how to check for cookies manually.
