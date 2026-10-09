@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Emmy Noether Group Lead at the Karlsruhe Institute of Technology (KIT)
+subtitle: Emmy Noether Group Lead of the <a href="https://agl-kit.de">AGL Lab</a> at the Karlsruhe Institute of Technology (KIT)
 
 profile:
   align: right
@@ -50,6 +50,13 @@ for adaptive algorithmic systems.
     <div class="affil-card">
       <img src="{{ '/assets/img/logos/coseal-logo.png' | relative_url }}" class="affil-logo">
       <span class="affil-text">Chair of <strong>COSEAL.net</strong></span>
+    </div>
+  </a>
+
+  <a href="https://agl-kit.de/" target="_blank" class="affil-link">
+    <div class="affil-card">
+      <img src="{{ '/assets/img/logos/agl-favicon-180.png' | relative_url }}" class="affil-logo">
+      <span class="affil-text">Lead of the <strong>AGL Lab</strong> @ KIT</span>
     </div>
   </a>
 

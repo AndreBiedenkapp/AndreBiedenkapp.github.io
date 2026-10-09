@@ -170,8 +170,9 @@
   contents:
     - year: 2026
       items:
-        - "Top 200 Revier @ ICLR'26"
-        - "Gold Revier @ ICML'26"
+        - "Top Area Chair @ NeurIPS'26"
+        - "<a href=\"https://iclr.cc/Conferences/2026/ProgramCommittee#top-200-reviewers\">Top 200 Reviewer @ ICLR'26</a>"
+        - "<a href=\"https://icml.cc/Conferences/2026/ProgramCommittee#gold\">Gold Reviewer @ ICML'26</a>"
     - year: 2025
       items:
         - "<a href=\"https://gecco-2025.sigevo.org/Best-Paper-Nominations\">Best Paper Award at GECCO'25 (L4EC track)</a>"
